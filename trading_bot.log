@@ -1,0 +1,220 @@
+2025-03-16 14:37:07,883 [ERROR] Error in main: ClientSession.__init__() missing 2 required positional arguments: 'read_stream' and 'write_stream'
+2025-03-16 14:39:36,232 [ERROR] Error in main: ClientSession.__init__() missing 2 required positional arguments: 'read_stream' and 'write_stream'
+2025-03-16 14:44:28,405 [ERROR] Error in main: stdio_client() missing 1 required positional argument: 'server'
+2025-03-16 14:46:14,628 [ERROR] Error in main: 'str' object has no attribute 'command'
+2025-03-16 14:48:22,230 [ERROR] Error in main: 'dict' object has no attribute 'command'
+2025-03-16 14:50:11,031 [ERROR] Unexpected error in main: name 'initialize_mt5' is not defined
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\trading_bot.py", line 68, in main
+    if not await initialize_mt5():
+                 ^^^^^^^^^^^^^^
+NameError: name 'initialize_mt5' is not defined
+2025-03-16 14:51:17,720 [INFO] MetaTrader5 initialized successfully
+2025-03-16 14:51:17,720 [INFO] TradingBot MCP server setup starting...
+2025-03-16 14:51:17,741 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\trading_bot.py", line 97, in main
+    server.register_tool("get_market_data", get_market_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'register_tool'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 93, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 97, in main
+    |     server.register_tool("get_market_data", get_market_data)
+    |     ^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'register_tool'
+    +------------------------------------
+2025-03-16 14:53:35,033 [INFO] MetaTrader5 initialized successfully
+2025-03-16 14:53:35,033 [INFO] TradingBot MCP server setup starting...
+2025-03-16 14:53:35,042 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\trading_bot.py", line 106, in main
+    async with stdio_client() as (client_read_stream, client_write_stream):
+               ^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 334, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: stdio_client() missing 1 required positional argument: 'server'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 102, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 106, in main
+    |     async with stdio_client() as (client_read_stream, client_write_stream):
+    |                ^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 334, in helper
+    |     return _AsyncGeneratorContextManager(func, args, kwds)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 105, in __init__
+    |     self.gen = func(*args, **kwds)
+    |                ^^^^^^^^^^^^^^^^^^^
+    | TypeError: stdio_client() missing 1 required positional argument: 'server'
+    +------------------------------------
+2025-03-16 14:59:17,052 [INFO] MetaTrader5 initialized successfully
+2025-03-16 14:59:17,057 [INFO] TradingBot MCP server setup starting...
+2025-03-16 14:59:17,082 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\trading_bot.py", line 106, in main
+    async with stdio_client() as (client_read_stream, client_write_stream):
+               ^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 334, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: stdio_client() missing 1 required positional argument: 'server'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 102, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 106, in main
+    |     async with stdio_client() as (client_read_stream, client_write_stream):
+    |                ^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 334, in helper
+    |     return _AsyncGeneratorContextManager(func, args, kwds)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 105, in __init__
+    |     self.gen = func(*args, **kwds)
+    |                ^^^^^^^^^^^^^^^^^^^
+    | TypeError: stdio_client() missing 1 required positional argument: 'server'
+    +------------------------------------
+2025-03-16 14:59:35,261 [ERROR] Error in main: stdio_client() missing 1 required positional argument: 'server'
+2025-03-16 15:05:47,688 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:05:47,689 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:05:47,699 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\trading_bot.py", line 106, in main
+    async with stdio_client() as (client_read_stream, client_write_stream):
+               ^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 334, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: stdio_client() missing 1 required positional argument: 'server'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 102, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 106, in main
+    |     async with stdio_client() as (client_read_stream, client_write_stream):
+    |                ^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 334, in helper
+    |     return _AsyncGeneratorContextManager(func, args, kwds)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 105, in __init__
+    |     self.gen = func(*args, **kwds)
+    |                ^^^^^^^^^^^^^^^^^^^
+    | TypeError: stdio_client() missing 1 required positional argument: 'server'
+    +------------------------------------
+2025-03-16 15:06:12,983 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:06:12,985 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:06:13,006 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\trading_bot.py", line 106, in main
+    async with stdio_client() as (client_read_stream, client_write_stream):
+               ^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 334, in helper
+    return _AsyncGeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: stdio_client() missing 1 required positional argument: 'server'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 102, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\trading_bot.py", line 106, in main
+    |     async with stdio_client() as (client_read_stream, client_write_stream):
+    |                ^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 334, in helper
+    |     return _AsyncGeneratorContextManager(func, args, kwds)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 105, in __init__
+    |     self.gen = func(*args, **kwds)
+    |                ^^^^^^^^^^^^^^^^^^^
+    | TypeError: stdio_client() missing 1 required positional argument: 'server'
+    +------------------------------------

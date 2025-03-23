@@ -1,0 +1,1841 @@
+2025-03-16 10:28:46,275 - INFO - Environment variables loaded successfully
+2025-03-16 10:28:53,805 - INFO - MetaTrader5 initialized successfully
+2025-03-16 10:28:53,805 - INFO - TradingBot server setup starting...
+2025-03-16 10:28:53,813 - INFO - MCP server created successfully
+2025-03-16 10:28:53,815 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:38:17,758 - INFO - Environment variables loaded successfully
+2025-03-16 10:38:24,215 - INFO - MetaTrader5 initialized successfully
+2025-03-16 10:38:24,215 - INFO - TradingBot server setup starting...
+2025-03-16 10:38:24,228 - INFO - MCP server created successfully
+2025-03-16 10:38:24,230 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:51:51,003 - INFO - Environment variables loaded successfully
+2025-03-16 10:51:51,018 - INFO - MetaTrader5 initialized successfully
+2025-03-16 10:51:51,018 - INFO - TradingBot server setup starting...
+2025-03-16 10:51:51,026 - INFO - MCP server created successfully
+2025-03-16 10:51:51,027 - ERROR - Server setup failed: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:51:51,028 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:52:53,116 - INFO - Environment variables loaded successfully
+2025-03-16 10:52:53,129 - INFO - MetaTrader5 initialized successfully
+2025-03-16 10:52:53,130 - INFO - TradingBot server setup starting...
+2025-03-16 10:52:53,140 - INFO - MCP server created successfully
+2025-03-16 10:52:53,141 - ERROR - Server setup failed: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:52:53,142 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:53:29,906 - INFO - Environment variables loaded successfully
+2025-03-16 10:53:38,015 - INFO - MetaTrader5 initialized successfully
+2025-03-16 10:53:38,015 - INFO - TradingBot server setup starting...
+2025-03-16 10:53:38,035 - INFO - MCP server created successfully
+2025-03-16 10:53:38,043 - ERROR - Server setup failed: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:53:38,049 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:55:49,743 - INFO - Environment variables loaded successfully
+2025-03-16 10:55:54,963 - INFO - MetaTrader5 initialized successfully
+2025-03-16 10:55:54,964 - INFO - TradingBot server setup starting...
+2025-03-16 10:55:55,003 - INFO - MCP server created successfully
+2025-03-16 10:55:55,013 - ERROR - Server setup failed: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 10:55:55,021 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 11:12:21,103 - INFO - Environment variables loaded successfully
+2025-03-16 11:12:28,472 - INFO - MetaTrader5 initialized successfully
+2025-03-16 11:12:28,473 - INFO - TradingBot server setup starting...
+2025-03-16 11:12:28,495 - INFO - MCP server created successfully
+2025-03-16 11:12:28,497 - ERROR - Server setup failed with exception: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as server:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'tuple' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:12:28,513 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as server:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'tuple' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:12:28,521 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 11:16:38,683 - INFO - Environment variables loaded successfully
+2025-03-16 11:16:45,461 - INFO - MetaTrader5 initialized successfully
+2025-03-16 11:16:45,462 - INFO - TradingBot server setup starting...
+2025-03-16 11:16:45,472 - INFO - MCP server created successfully
+2025-03-16 11:16:45,473 - ERROR - Server setup failed with exception: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as server:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'tuple' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:16:45,499 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as server:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'tuple' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:16:45,521 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 11:21:14,793 - INFO - Environment variables loaded successfully
+2025-03-16 11:21:14,807 - INFO - MetaTrader5 initialized successfully
+2025-03-16 11:21:14,807 - INFO - TradingBot server setup starting...
+2025-03-16 11:21:14,814 - INFO - MCP server created successfully
+2025-03-16 11:21:14,815 - ERROR - Server setup failed with exception: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as server:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'tuple' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:21:14,820 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as server:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'tuple' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:21:14,824 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 11:21:24,320 - INFO - Environment variables loaded successfully
+2025-03-16 11:21:28,533 - INFO - MetaTrader5 initialized successfully
+2025-03-16 11:21:28,534 - INFO - TradingBot server setup starting...
+2025-03-16 11:21:28,542 - INFO - MCP server created successfully
+2025-03-16 11:21:28,543 - ERROR - Server setup failed with exception: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as server:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'tuple' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:21:28,562 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as server:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 131, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'tuple' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:21:28,574 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+2025-03-16 11:26:43,889 - INFO - Environment variables loaded successfully
+2025-03-16 11:26:48,848 - INFO - MetaTrader5 initialized successfully
+2025-03-16 11:26:48,848 - INFO - TradingBot MCP server setup starting...
+2025-03-16 11:26:48,858 - INFO - MCP server created successfully
+2025-03-16 11:26:48,859 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 130, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 123, in main
+  |     async with stdio_server() as streams:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 130, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:26:48,873 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 130, in main
+    @server.tool_handler("get_market_data")
+     ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'tool_handler'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 241, in <module>
+  |     asyncio.run(main())
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 123, in main
+  |     async with stdio_server() as streams:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 130, in main
+    |     @server.tool_handler("get_market_data")
+    |      ^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'tool_handler'
+    +------------------------------------
+2025-03-16 11:54:39,955 - INFO - Environment variables loaded successfully
+2025-03-16 11:54:47,799 - INFO - MetaTrader5 initialized successfully
+2025-03-16 11:54:47,799 - INFO - TradingBot MCP server setup starting...
+2025-03-16 11:54:47,824 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 217, in main
+    server = Server(read_stream, write_stream, tools=tools)  # Pass tools during initialization
+             ^^^^^^
+NameError: name 'Server' is not defined. Did you mean: 'server'?
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 215, in main
+  |     async with stdio_server() as streams:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 217, in main
+    |     server = Server(read_stream, write_stream, tools=tools)  # Pass tools during initialization
+    |              ^^^^^^
+    | NameError: name 'Server' is not defined. Did you mean: 'server'?
+    +------------------------------------
+2025-03-16 11:54:47,838 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 217, in main
+    server = Server(read_stream, write_stream, tools=tools)  # Pass tools during initialization
+             ^^^^^^
+NameError: name 'Server' is not defined. Did you mean: 'server'?
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 239, in <module>
+  |     asyncio.run(main())
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 215, in main
+  |     async with stdio_server() as streams:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 217, in main
+    |     server = Server(read_stream, write_stream, tools=tools)  # Pass tools during initialization
+    |              ^^^^^^
+    | NameError: name 'Server' is not defined. Did you mean: 'server'?
+    +------------------------------------
+2025-03-16 11:56:46,534 - INFO - Environment variables loaded successfully
+2025-03-16 11:56:53,123 - INFO - MetaTrader5 initialized successfully
+2025-03-16 11:56:53,123 - INFO - TradingBot MCP server setup starting...
+2025-03-16 11:56:53,133 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 217, in main
+    server = Server(read_stream, write_stream, tools=tools)  # Pass tools during initialization
+             ^^^^^^
+NameError: name 'Server' is not defined. Did you mean: 'server'?
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 215, in main
+  |     async with stdio_server() as streams:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 217, in main
+    |     server = Server(read_stream, write_stream, tools=tools)  # Pass tools during initialization
+    |              ^^^^^^
+    | NameError: name 'Server' is not defined. Did you mean: 'server'?
+    +------------------------------------
+2025-03-16 11:56:53,141 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 217, in main
+    server = Server(read_stream, write_stream, tools=tools)  # Pass tools during initialization
+             ^^^^^^
+NameError: name 'Server' is not defined. Did you mean: 'server'?
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 239, in <module>
+  |     asyncio.run(main())
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 215, in main
+  |     async with stdio_server() as streams:
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 217, in main
+    |     server = Server(read_stream, write_stream, tools=tools)  # Pass tools during initialization
+    |              ^^^^^^
+    | NameError: name 'Server' is not defined. Did you mean: 'server'?
+    +------------------------------------
+2025-03-16 12:24:59,223 - INFO - Environment variables loaded successfully
+2025-03-16 12:25:10,103 - INFO - MetaTrader5 initialized successfully
+2025-03-16 12:25:10,107 - INFO - TradingBot MCP server setup starting...
+2025-03-16 12:25:10,123 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 164, in main
+    server = Server(read_stream, write_stream, tools=tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Server.__init__() got an unexpected keyword argument 'tools'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 163, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 164, in main
+    |     server = Server(read_stream, write_stream, tools=tools)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | TypeError: Server.__init__() got an unexpected keyword argument 'tools'
+    +------------------------------------
+2025-03-16 12:25:10,142 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 164, in main
+    server = Server(read_stream, write_stream, tools=tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Server.__init__() got an unexpected keyword argument 'tools'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 186, in <module>
+  |     asyncio.run(main())
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 163, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 164, in main
+    |     server = Server(read_stream, write_stream, tools=tools)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | TypeError: Server.__init__() got an unexpected keyword argument 'tools'
+    +------------------------------------
+2025-03-16 12:29:15,873 - INFO - Environment variables loaded successfully
+2025-03-16 12:29:21,455 - INFO - MetaTrader5 initialized successfully
+2025-03-16 12:29:21,456 - INFO - TradingBot MCP server setup starting...
+2025-03-16 12:29:21,470 - ERROR - Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 164, in main
+    server = Server(read_stream, write_stream, tools=tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Server.__init__() got an unexpected keyword argument 'tools'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 163, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 164, in main
+    |     server = Server(read_stream, write_stream, tools=tools)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | TypeError: Server.__init__() got an unexpected keyword argument 'tools'
+    +------------------------------------
+2025-03-16 12:29:21,477 - ERROR - Unexpected error: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 164, in main
+    server = Server(read_stream, write_stream, tools=tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Server.__init__() got an unexpected keyword argument 'tools'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 186, in <module>
+  |     asyncio.run(main())
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 163, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 164, in main
+    |     server = Server(read_stream, write_stream, tools=tools)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    | TypeError: Server.__init__() got an unexpected keyword argument 'tools'
+    +------------------------------------
+2025-03-16 13:54:14,470 [WARNING] MT5 initialization failed, retrying in 1 seconds...
+2025-03-16 13:54:14,500 [WARNING] MT5 initialization failed, retrying in 1 seconds...
+2025-03-16 13:54:20,102 [WARNING] MT5 initialization failed, retrying in 2 seconds...
+2025-03-16 13:54:33,211 [INFO] MetaTrader5 initialized successfully
+2025-03-16 13:54:33,215 [INFO] TradingBot MCP server setup starting...
+2025-03-16 13:54:33,248 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 114, in main
+    server.register_tool("get_market_data", get_market_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'register_tool'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 110, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 114, in main
+    |     server.register_tool("get_market_data", get_market_data)
+    |     ^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'register_tool'
+    +------------------------------------
+2025-03-16 14:36:53,508 [INFO] MetaTrader5 initialized successfully
+2025-03-16 14:36:53,518 [INFO] TradingBot MCP server setup starting...
+2025-03-16 14:36:53,586 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 114, in main
+    server.register_tool("get_market_data", get_market_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'register_tool'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 110, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 114, in main
+    |     server.register_tool("get_market_data", get_market_data)
+    |     ^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'register_tool'
+    +------------------------------------
+2025-03-16 15:12:21,130 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:12:21,135 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:12:21,163 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 115, in main
+    server.register_tool("get_market_data", get_market_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'register_tool'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 111, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 115, in main
+    |     server.register_tool("get_market_data", get_market_data)
+    |     ^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'register_tool'
+    +------------------------------------
+2025-03-16 15:15:43,127 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:15:43,127 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:15:43,135 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 115, in main
+    server.register_tool("get_market_data", get_market_data)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'register_tool'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 111, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 115, in main
+    |     server.register_tool("get_market_data", get_market_data)
+    |     ^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'register_tool'
+    +------------------------------------
+2025-03-16 15:16:51,454 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:16:51,454 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:16:51,463 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 116, in main
+    request = await server.receive_request()  # Assuming this method exists
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'receive_request'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 111, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 116, in main
+    |     request = await server.receive_request()  # Assuming this method exists
+    |                     ^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'receive_request'
+    +------------------------------------
+2025-03-16 15:18:40,184 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:18:40,185 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:18:40,197 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 117, in main
+    request = await server.receive_request()  # Check the correct method to receive requests
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'receive_request'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 111, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 117, in main
+    |     request = await server.receive_request()  # Check the correct method to receive requests
+    |                     ^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'receive_request'
+    +------------------------------------
+2025-03-16 15:21:17,183 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:21:17,184 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:21:17,192 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 116, in main
+    request = await server.receive_request()  # Check the correct method to receive requests
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'receive_request'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 110, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 116, in main
+    |     request = await server.receive_request()  # Check the correct method to receive requests
+    |                     ^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'receive_request'
+    +------------------------------------
+2025-03-16 15:56:39,445 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:56:39,669 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:56:39,875 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 112, in main
+    server = JSONRPCServer()
+             ^^^^^^^^^^^^^
+NameError: name 'JSONRPCServer' is not defined
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 110, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 112, in main
+    |     server = JSONRPCServer()
+    |              ^^^^^^^^^^^^^
+    | NameError: name 'JSONRPCServer' is not defined
+    +------------------------------------
+2025-03-16 15:57:17,915 [INFO] MetaTrader5 initialized successfully
+2025-03-16 15:57:17,916 [INFO] TradingBot MCP server setup starting...
+2025-03-16 15:57:17,926 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 112, in main
+    server = JSONRPCServer()
+             ^^^^^^^^^^^^^
+NameError: name 'JSONRPCServer' is not defined
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 110, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 112, in main
+    |     server = JSONRPCServer()
+    |              ^^^^^^^^^^^^^
+    | NameError: name 'JSONRPCServer' is not defined
+    +------------------------------------
+2025-03-16 16:00:02,514 [INFO] MetaTrader5 initialized successfully
+2025-03-16 16:00:02,525 [INFO] TradingBot MCP server setup starting...
+2025-03-16 16:00:02,545 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 111, in main
+    request = await server.receive_request()  # Check the correct method to receive requests
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'receive_request'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 107, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 111, in main
+    |     request = await server.receive_request()  # Check the correct method to receive requests
+    |                     ^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'receive_request'
+    +------------------------------------
+2025-03-16 16:09:52,658 [INFO] MetaTrader5 initialized successfully
+2025-03-16 16:09:52,659 [INFO] TradingBot MCP server setup starting...
+2025-03-16 16:09:52,675 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 112, in main
+    request = await server.receive_request()  # Check the correct method to receive requests
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Server' object has no attribute 'receive_request'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 107, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 112, in main
+    |     request = await server.receive_request()  # Check the correct method to receive requests
+    |                     ^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'Server' object has no attribute 'receive_request'
+    +------------------------------------
+2025-03-16 16:15:36,040 [INFO] MetaTrader5 initialized successfully
+2025-03-16 16:15:36,040 [INFO] TradingBot MCP server setup starting...
+2025-03-16 16:15:36,050 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 121, in main
+    request_data = await read_stream.read()  # Read the incoming request from the stream
+                         ^^^^^^^^^^^^^^^^
+AttributeError: 'MemoryObjectReceiveStream' object has no attribute 'read'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 116, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 121, in main
+    |     request_data = await read_stream.read()  # Read the incoming request from the stream
+    |                          ^^^^^^^^^^^^^^^^
+    | AttributeError: 'MemoryObjectReceiveStream' object has no attribute 'read'
+    +------------------------------------
+2025-03-16 16:17:22,950 [INFO] MetaTrader5 initialized successfully
+2025-03-16 16:17:22,951 [INFO] TradingBot MCP server setup starting...
+2025-03-16 16:18:54,871 [INFO] MetaTrader5 initialized successfully
+2025-03-16 16:18:54,872 [INFO] TradingBot MCP server setup starting...
+2025-03-16 16:21:59,075 [INFO] MetaTrader5 initialized successfully
+2025-03-16 16:21:59,076 [INFO] TradingBot MCP server setup starting...
+2025-03-16 16:21:59,089 [ERROR] Error loading data from CSV: [Errno 2] No such file or directory: 'large_file.csv'
+2025-03-16 16:21:59,608 [INFO] MetaTrader5 initialized successfully
+2025-03-16 16:21:59,610 [INFO] TradingBot MCP server setup starting...
+2025-03-16 16:21:59,618 [ERROR] Error loading data from CSV: [Errno 2] No such file or directory: 'large_file.csv'
+2025-03-16 16:21:59,636 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 137, in main
+    request = parse_request(request_data)  # Parse the request
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 103, in parse_request
+    return json.loads(request_data)  # Assuming the request data is in JSON format
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not JSONRPCMessage
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 137, in main
+    |     request = parse_request(request_data)  # Parse the request
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 103, in parse_request
+    |     return json.loads(request_data)  # Assuming the request data is in JSON format
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 339, in loads
+    |     raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+    | TypeError: the JSON object must be str, bytes or bytearray, not JSONRPCMessage
+    +------------------------------------
+2025-03-17 03:40:37,579 [INFO] MetaTrader5 initialized successfully
+2025-03-17 03:40:37,581 [INFO] MetaTrader5 initialized successfully
+2025-03-17 03:40:37,587 [INFO] TradingBot MCP server setup starting...
+2025-03-17 03:40:37,587 [INFO] TradingBot MCP server setup starting...
+2025-03-17 03:40:37,611 [ERROR] Error loading data from CSV: No columns to parse from file
+2025-03-17 03:40:37,612 [ERROR] Error loading data from CSV: No columns to parse from file
+2025-03-17 03:40:37,643 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 137, in main
+    request = parse_request(request_data)  # Parse the request
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 103, in parse_request
+    return json.loads(request_data)  # Assuming the request data is in JSON format
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not JSONRPCMessage
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 126, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 137, in main
+    |     request = parse_request(request_data)  # Parse the request
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 103, in parse_request
+    |     return json.loads(request_data)  # Assuming the request data is in JSON format
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 339, in loads
+    |     raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+    | TypeError: the JSON object must be str, bytes or bytearray, not JSONRPCMessage
+    +------------------------------------
+2025-03-17 03:47:19,492 [INFO] MetaTrader5 initialized successfully
+2025-03-17 03:47:19,494 [INFO] TradingBot MCP server setup starting...
+2025-03-17 03:47:19,510 [ERROR] Error loading data from CSV: No columns to parse from file
+2025-03-17 03:47:21,669 [INFO] MetaTrader5 initialized successfully
+2025-03-17 03:47:21,670 [INFO] TradingBot MCP server setup starting...
+2025-03-17 03:47:21,680 [ERROR] Error loading data from CSV: No columns to parse from file
+2025-03-17 03:47:21,695 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 149, in main
+    if request.get("method") == "get_market_data":
+       ^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 136, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 149, in main
+    |     if request.get("method") == "get_market_data":
+    |        ^^^^^^^^^^^
+    | AttributeError: 'function' object has no attribute 'get'
+    +------------------------------------
+2025-03-17 03:55:07,126 [INFO] MetaTrader5 initialized successfully
+2025-03-17 03:55:07,127 [INFO] TradingBot MCP server setup starting...
+2025-03-17 03:55:07,139 [ERROR] Error loading data from CSV: No columns to parse from file
+2025-03-17 03:55:17,237 [INFO] MetaTrader5 initialized successfully
+2025-03-17 03:55:17,238 [INFO] TradingBot MCP server setup starting...
+2025-03-17 03:55:17,255 [ERROR] Error loading data from CSV: No columns to parse from file
+2025-03-17 03:55:17,267 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 156, in main
+    await write_stream.write(json.dumps(response).encode('utf-8'))  # Send the response
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: 'MemoryObjectSendStream' object has no attribute 'write'
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 136, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 156, in main
+    |     await write_stream.write(json.dumps(response).encode('utf-8'))  # Send the response
+    |           ^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'MemoryObjectSendStream' object has no attribute 'write'
+    +------------------------------------
+2025-03-17 03:59:48,807 [INFO] MetaTrader5 initialized successfully
+2025-03-17 03:59:48,807 [INFO] TradingBot MCP server setup starting...
+2025-03-17 03:59:48,818 [ERROR] Error loading data from CSV: Error tokenizing data. C error: Expected 1 fields in line 3, saw 4
+
+2025-03-17 03:59:55,337 [INFO] MetaTrader5 initialized successfully
+2025-03-17 03:59:55,338 [INFO] TradingBot MCP server setup starting...
+2025-03-17 03:59:55,347 [ERROR] Error loading data from CSV: Error tokenizing data. C error: Expected 1 fields in line 3, saw 4
+
+2025-03-17 04:03:26,578 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 106, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 146, in main
+    request_data = await read_stream.receive()  # Read the incoming request from the stream
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 119, in receive
+    await receive_event.wait()
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1766, in wait
+    await self._event.wait()
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError: Cancelled by cancel scope 20d7361ac30
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 136, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 77, in stdout_writer
+    |     json = message.model_dump_json(by_alias=True, exclude_none=True)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'bytes' object has no attribute 'model_dump_json'
+    +------------------------------------
+2025-03-17 04:03:36,141 [INFO] MetaTrader5 initialized successfully
+2025-03-17 04:03:36,141 [INFO] TradingBot MCP server setup starting...
+2025-03-17 04:03:36,151 [ERROR] Error loading data from CSV: Error tokenizing data. C error: Expected 1 fields in line 3, saw 4
+
+2025-03-17 04:03:42,118 [INFO] MetaTrader5 initialized successfully
+2025-03-17 04:03:42,119 [INFO] TradingBot MCP server setup starting...
+2025-03-17 04:03:42,127 [ERROR] Error loading data from CSV: Error tokenizing data. C error: Expected 1 fields in line 3, saw 4
+
+2025-03-17 04:04:02,405 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 106, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 146, in main
+    request_data = await read_stream.receive()  # Read the incoming request from the stream
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 119, in receive
+    await receive_event.wait()
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1766, in wait
+    await self._event.wait()
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError: Cancelled by cancel scope 1f9ff726bd0
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 136, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 77, in stdout_writer
+    |     json = message.model_dump_json(by_alias=True, exclude_none=True)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'bytes' object has no attribute 'model_dump_json'
+    +------------------------------------
+2025-03-17 04:04:08,017 [INFO] MetaTrader5 initialized successfully
+2025-03-17 04:04:08,021 [INFO] TradingBot MCP server setup starting...
+2025-03-17 04:04:08,041 [ERROR] Error loading data from CSV: Error tokenizing data. C error: Expected 1 fields in line 3, saw 4
+
+2025-03-17 04:04:11,782 [INFO] MetaTrader5 initialized successfully
+2025-03-17 04:04:11,783 [INFO] TradingBot MCP server setup starting...
+2025-03-17 04:04:11,796 [ERROR] Error loading data from CSV: Error tokenizing data. C error: Expected 1 fields in line 3, saw 4
+
+2025-03-17 04:52:43,854 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 106, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 146, in main
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 119, in receive
+    await receive_event.wait()
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1766, in wait
+    await self._event.wait()
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError: Cancelled by cancel scope 1eaac6eafc0
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 136, in main
+  |     lines = []
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 77, in stdout_writer
+    |     json = message.model_dump_json(by_alias=True, exclude_none=True)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'bytes' object has no attribute 'model_dump_json'
+    +------------------------------------
+2025-03-17 04:53:38,974 [INFO] MetaTrader5 initialized successfully
+2025-03-17 04:53:38,990 [INFO] TradingBot MCP server setup starting...
+2025-03-17 04:53:39,007 [INFO] Analyzing CSV file before loading...
+2025-03-17 04:53:39,012 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 04:53:39,018 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 04:53:39,033 [INFO] CSV Sniffer detected delimiter: ','
+2025-03-17 04:53:39,038 [ERROR] Final CSV loading attempt failed: read_csv() got an unexpected keyword argument 'error_bad_lines'
+2025-03-17 04:53:39,038 [ERROR] Failed to load CSV file large_file.csv after trying multiple formats
+2025-03-17 04:53:39,039 [ERROR] Failed to load the CSV file after multiple attempts
+2025-03-17 04:53:40,239 [INFO] MetaTrader5 initialized successfully
+2025-03-17 04:53:40,239 [INFO] TradingBot MCP server setup starting...
+2025-03-17 04:53:40,239 [INFO] Analyzing CSV file before loading...
+2025-03-17 04:53:40,240 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 04:53:40,241 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 04:53:40,241 [INFO] CSV Sniffer detected delimiter: ','
+2025-03-17 04:53:40,242 [ERROR] Final CSV loading attempt failed: read_csv() got an unexpected keyword argument 'error_bad_lines'
+2025-03-17 04:53:40,242 [ERROR] Failed to load CSV file large_file.csv after trying multiple formats
+2025-03-17 04:53:40,242 [ERROR] Failed to load the CSV file after multiple attempts
+2025-03-17 05:04:38,800 [INFO] MetaTrader5 initialized successfully
+2025-03-17 05:04:38,801 [INFO] TradingBot MCP server setup starting...
+2025-03-17 05:04:38,802 [INFO] Analyzing CSV file before loading...
+2025-03-17 05:04:38,802 [INFO] MetaTrader5 initialized successfully
+2025-03-17 05:04:38,804 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:04:38,806 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:04:38,823 [INFO] TradingBot MCP server setup starting...
+2025-03-17 05:04:38,829 [INFO] Analyzing CSV file before loading...
+2025-03-17 05:04:38,831 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:04:38,840 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:04:38,846 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 05:04:38,846 [INFO] Loaded 23 rows with 17 columns from large_file.csv
+2025-03-17 05:04:38,847 [INFO] CSV columns: ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
+2025-03-17 05:04:38,909 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 05:04:38,915 [INFO] Loaded 23 rows with 17 columns from large_file.csv
+2025-03-17 05:04:38,916 [INFO] CSV columns: ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
+2025-03-17 05:04:38,950 [INFO] Data from CSV:                                         Unnamed: 1  ...  Unnamed: 15 Unnamed: 16
+0                                  NaN         NaN  ...          NaN         NaN
+1                                  NaN         NaN  ...          NaN         NaN
+2                                  NaN         NaN  ...          NaN         NaN
+3                                  NaN         NaN  ...          NaN         NaN
+4                                  NaN         NaN  ...          NaN         NaN
+
+[5 rows x 17 columns]
+2025-03-17 05:04:38,965 [INFO] Data from CSV:                                         Unnamed: 1  Unnamed: 2 Unnamed: 3  ...  Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16
+0                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+1                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+2                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+3                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+4                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+
+[5 rows x 17 columns]
+2025-03-17 05:33:13,182 [WARNING] MT5 initialization failed, retrying in 1 seconds...
+2025-03-17 05:33:16,907 [WARNING] MT5 initialization failed, retrying in 1 seconds...
+2025-03-17 05:33:20,731 [INFO] MetaTrader5 initialized successfully
+2025-03-17 05:33:20,732 [INFO] MetaTrader5 initialized successfully
+2025-03-17 05:33:20,759 [INFO] TradingBot MCP server setup starting...
+2025-03-17 05:33:20,760 [INFO] TradingBot MCP server setup starting...
+2025-03-17 05:33:20,761 [INFO] Analyzing CSV file before loading...
+2025-03-17 05:33:20,761 [INFO] Analyzing CSV file before loading...
+2025-03-17 05:33:20,777 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:33:20,777 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:33:20,780 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:33:20,785 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:33:20,815 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 05:33:20,817 [INFO] Loaded 23 rows with 17 columns from large_file.csv
+2025-03-17 05:33:20,817 [INFO] Loaded 23 rows with 17 columns from large_file.csv
+2025-03-17 05:33:20,818 [INFO] CSV columns: ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
+2025-03-17 05:33:20,818 [INFO] CSV columns: ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
+2025-03-17 05:33:20,895 [INFO] Data from CSV:                                         Unnamed: 1  ...  Unnamed: 15 Unnamed: 16
+0                                  NaN         NaN  ...          NaN         NaN
+1                                  NaN         NaN  ...          NaN         NaN
+2                                  NaN         NaN  ...          NaN         NaN
+3                                  NaN         NaN  ...          NaN         NaN
+4                                  NaN         NaN  ...          NaN         NaN
+
+[5 rows x 17 columns]
+2025-03-17 05:33:20,899 [INFO] Data from CSV:                                         Unnamed: 1  Unnamed: 2 Unnamed: 3  ...  Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16
+0                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+1                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+2                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+3                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+4                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
+
+[5 rows x 17 columns]
+2025-03-17 05:39:45,398 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 106, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 284, in main
+    server = Server(read_stream, write_stream)  # Ensure this is the correct instantiation
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 119, in receive
+    await receive_event.wait()
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1766, in wait
+    await self._event.wait()
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError: Cancelled by cancel scope 247d16ebb00
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 279, in main
+  |     logging.info(f"Data from CSV: {df.head()}")  # Log the first few rows of the DataFrame
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 77, in stdout_writer
+    |     json = message.model_dump_json(by_alias=True, exclude_none=True)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'bytes' object has no attribute 'model_dump_json'
+    +------------------------------------
+2025-03-17 05:40:33,016 [INFO] MetaTrader5 initialized successfully
+2025-03-17 05:40:33,017 [INFO] TradingBot MCP server setup starting...
+2025-03-17 05:40:33,018 [INFO] Analyzing CSV file before loading...
+2025-03-17 05:40:33,026 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:40:33,027 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:40:33,042 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 05:40:33,042 [INFO] Loaded 20 rows with 13 columns from large_file.csv
+2025-03-17 05:40:33,043 [INFO] CSV columns: ['Unnamed: 3', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
+2025-03-17 05:40:33,081 [INFO] Data from CSV:                                       Unnamed: 3            Unnamed: 5 Unnamed: 6  ... Unnamed: 14 Unnamed: 15 Unnamed: 16
+3                                            NaN  Trade Account Report        NaN  ...         NaN         NaN         NaN
+4                                            NaN                 Name:        NaN  ...         NaN         NaN         NaN
+5                                                             Account:        NaN  ...         NaN         NaN         NaN
+6                                            NaN              Company:        NaN  ...         NaN         NaN         NaN
+7                                            NaN                 Date:        NaN  ...         NaN         NaN         NaN
+
+[5 rows x 13 columns]
+2025-03-17 05:40:33,749 [INFO] MetaTrader5 initialized successfully
+2025-03-17 05:40:33,750 [INFO] TradingBot MCP server setup starting...
+2025-03-17 05:40:33,751 [INFO] Analyzing CSV file before loading...
+2025-03-17 05:40:33,751 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:40:33,751 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 05:40:33,760 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 05:40:33,761 [INFO] Loaded 20 rows with 13 columns from large_file.csv
+2025-03-17 05:40:33,761 [INFO] CSV columns: ['Unnamed: 3', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
+2025-03-17 05:40:33,778 [INFO] Data from CSV:                                       Unnamed: 3  ... Unnamed: 16
+3                                            NaN  ...         NaN
+4                                            NaN  ...         NaN
+5                                                 ...         NaN
+6                                            NaN  ...         NaN
+7                                            NaN  ...         NaN
+
+[5 rows x 13 columns]
+2025-03-17 06:03:29,297 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (1 sub-exception)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 106, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 288, in main
+    request_data = await read_stream.receive()  # Read the incoming request from the stream
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 119, in receive
+    await receive_event.wait()
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1766, in wait
+    await self._event.wait()
+  File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\asyncio\locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError: Cancelled by cancel scope 2c278f73110
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 283, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 77, in stdout_writer
+    |     json = message.model_dump_json(by_alias=True, exclude_none=True)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+    | AttributeError: 'bytes' object has no attribute 'model_dump_json'
+    +------------------------------------
+2025-03-17 06:03:48,674 [INFO] MetaTrader5 initialized successfully
+2025-03-17 06:03:48,674 [INFO] TradingBot MCP server setup starting...
+2025-03-17 06:03:48,674 [INFO] Analyzing CSV file before loading...
+2025-03-17 06:03:48,675 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 06:03:48,676 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 06:03:48,684 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 06:03:48,684 [INFO] Loaded 22 rows with 13 columns from large_file.csv
+2025-03-17 06:03:48,685 [INFO] CSV columns: ['Unnamed: 3', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
+2025-03-17 06:03:48,702 [INFO] Data from CSV:                                       Unnamed: 3            Unnamed: 5 Unnamed: 6  ... Unnamed: 14 Unnamed: 15 Unnamed: 16
+3                                            NaN  Trade Account Report        NaN  ...         NaN         NaN         NaN
+4                                            NaN                 Name:        NaN  ...         NaN         NaN         NaN
+5                                                             Account:        NaN  ...         NaN         NaN         NaN
+6                                            NaN              Company:        NaN  ...         NaN         NaN         NaN
+7                                            NaN                 Date:        NaN  ...         NaN         NaN         NaN
+
+[5 rows x 13 columns]
+2025-03-17 06:04:44,917 [INFO] MetaTrader5 initialized successfully
+2025-03-17 06:04:44,917 [INFO] TradingBot MCP server setup starting...
+2025-03-17 06:04:44,918 [INFO] Analyzing CSV file before loading...
+2025-03-17 06:04:44,918 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 06:04:44,919 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 06:04:44,931 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 06:04:44,932 [INFO] Loaded 22 rows with 0 columns from large_file.csv
+2025-03-17 06:04:44,932 [INFO] CSV columns: []
+2025-03-17 06:04:44,940 [INFO] Data from CSV: Empty DataFrame
+Columns: []
+Index: [3, 4, 5, 6, 7]
+2025-03-17 08:06:46,861 [INFO] MetaTrader5 initialized successfully
+2025-03-17 08:06:46,866 [INFO] TradingBot MCP server setup starting...
+2025-03-17 08:06:46,867 [INFO] Analyzing CSV file before loading...
+2025-03-17 08:06:46,881 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 08:06:46,882 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 08:06:46,950 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 08:06:46,950 [INFO] Loaded 22 rows with 0 columns from large_file.csv
+2025-03-17 08:06:46,950 [INFO] CSV columns: []
+2025-03-17 08:06:46,956 [INFO] Data from CSV: Empty DataFrame
+Columns: []
+Index: [3, 4, 5, 6, 7]
+2025-03-17 08:09:18,236 [WARNING] MT5 initialization failed, retrying in 1 seconds...
+2025-03-17 08:09:25,774 [INFO] MetaTrader5 initialized successfully
+2025-03-17 08:09:25,775 [INFO] TradingBot MCP server setup starting...
+2025-03-17 08:09:25,775 [INFO] Analyzing CSV file before loading...
+2025-03-17 08:09:25,779 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 08:09:25,780 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [16, 16, 16, 16, 16, 16, 19, 16, 16, 16], ';': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': [17, 17, 17, 17, 17, 17, 20, 17, 17, 17], ';': 1, '\t': 1, '|': 1}, 'sample_lines': ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0,,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,,,,,,,,,,,,\n', ',,,,,Trade Account Report,,,,,,,,,,,\n']}
+2025-03-17 08:09:25,797 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 08:09:25,797 [INFO] Loaded 22 rows with 0 columns from large_file.csv
+2025-03-17 08:09:25,797 [INFO] CSV columns: []
+2025-03-17 08:09:25,801 [INFO] Data from CSV: Empty DataFrame
+Columns: []
+Index: [3, 4, 5, 6, 7]
+2025-03-17 08:20:21,889 [INFO] MetaTrader5 initialized successfully
+2025-03-17 08:20:21,934 [INFO] TradingBot MCP server setup starting...
+2025-03-17 08:20:21,934 [INFO] Analyzing CSV file before loading...
+2025-03-17 08:20:21,935 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-17 08:20:21,937 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-17 08:20:21,967 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-17 08:20:21,967 [INFO] Loaded 1 rows with 1 columns from large_file.csv
+2025-03-17 08:20:21,968 [INFO] CSV columns: ['Message']
+2025-03-17 08:20:21,983 [INFO] Data from CSV:                                          Message
+5                                               
+2025-03-18 03:10:43,088 [INFO] MetaTrader5 initialized successfully
+2025-03-18 03:10:43,098 [INFO] TradingBot MCP server setup starting...
+2025-03-18 03:10:43,098 [INFO] Analyzing CSV file before loading...
+2025-03-18 03:10:43,115 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-18 03:10:43,116 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-18 03:10:43,239 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-18 03:10:43,279 [INFO] Loaded 1 rows with 1 columns from large_file.csv
+2025-03-18 03:10:43,321 [INFO] CSV columns: ['Message']
+2025-03-18 03:10:43,422 [INFO] Data from CSV:                                          Message
+5                                               
+2025-03-18 03:15:23,747 [INFO] MetaTrader5 initialized successfully
+2025-03-18 03:15:23,752 [INFO] TradingBot MCP server setup starting...
+2025-03-18 03:15:23,752 [INFO] Analyzing CSV file before loading...
+2025-03-18 03:15:23,765 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-18 03:15:23,768 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-18 03:15:23,779 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-18 03:15:23,779 [INFO] Loaded 1 rows with 1 columns from large_file.csv
+2025-03-18 03:15:23,786 [INFO] CSV columns: ['Message']
+2025-03-18 03:15:23,795 [INFO] Data from CSV:                                          Message
+5                                               
+2025-03-18 09:07:08,481 [INFO] MetaTrader5 initialized successfully
+2025-03-18 09:07:08,483 [INFO] TradingBot MCP server setup starting...
+2025-03-18 09:07:08,483 [INFO] Analyzing CSV file before loading...
+2025-03-18 09:07:08,495 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-18 09:07:08,496 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-18 09:07:08,532 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-18 09:07:08,545 [INFO] Loaded 1 rows with 1 columns from large_file.csv
+2025-03-18 09:07:08,546 [INFO] CSV columns: ['Message']
+2025-03-18 09:07:08,561 [INFO] Data from CSV:                                          Message
+5                                               
+2025-03-18 09:07:29,719 [INFO] MetaTrader5 initialized successfully
+2025-03-18 09:07:29,720 [INFO] TradingBot MCP server setup starting...
+2025-03-18 09:07:29,720 [INFO] Analyzing CSV file before loading...
+2025-03-18 09:07:29,721 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-18 09:07:29,721 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-18 09:07:29,729 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-18 09:07:29,729 [INFO] Loaded 1 rows with 1 columns from large_file.csv
+2025-03-18 09:07:29,730 [INFO] CSV columns: ['Message']
+2025-03-18 09:07:29,736 [INFO] Data from CSV:                                          Message
+5                                               
+2025-03-18 10:26:41,652 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (2 sub-exceptions)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 291, in main
+    request_data = await read_stream.receive()  # Read the incoming request from the stream
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 286, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (2 sub-exceptions)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    |     return self.receive_nowait()
+    |            ^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 106, in receive_nowait
+    |     raise WouldBlock
+    | anyio.WouldBlock
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 124, in receive
+    |     return receiver.item
+    |            ^^^^^^^^^^^^^
+    | AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 291, in main
+    |     request_data = await read_stream.receive()  # Read the incoming request from the stream
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    |     raise EndOfStream
+    | anyio.EndOfStream
+    +---------------- 2 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 62, in stdin_reader
+    |     async for line in stdin:
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_core\_fileio.py", line 80, in __aiter__
+    |     line = await self.readline()
+    |            ^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_core\_fileio.py", line 96, in readline
+    |     return await to_thread.run_sync(self._fp.readline)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2461, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 962, in run
+    |     result = context.run(func, *args)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+    | OSError: [WinError 233] No process is on the other end of the pipe
+    +------------------------------------
+2025-03-20 01:11:38,882 [INFO] MetaTrader5 initialized successfully
+2025-03-20 01:11:38,886 [INFO] TradingBot MCP server setup starting...
+2025-03-20 01:11:38,899 [INFO] Analyzing CSV file before loading...
+2025-03-20 01:11:38,944 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-20 01:11:38,986 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-20 01:11:39,127 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-20 01:11:39,128 [INFO] Loaded 1 rows with 1 columns from large_file.csv
+2025-03-20 01:11:39,128 [INFO] CSV columns: ['Message']
+2025-03-20 01:11:39,362 [INFO] Data from CSV:                                          Message
+5                                               
+2025-03-20 01:19:04,975 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (2 sub-exceptions)
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    yield read_stream, write_stream
+  File "C:\Users\CodeX\Meta trade\mcp_server.py", line 291, in main
+    request_data = await read_stream.receive()  # Read the incoming request from the stream
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 286, in main
+  |     async with stdio_server() as (read_stream, write_stream):
+  |   File "C:\Users\CodeX\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 231, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 767, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (2 sub-exceptions)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 111, in receive
+    |     return self.receive_nowait()
+    |            ^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 106, in receive_nowait
+    |     raise WouldBlock
+    | anyio.WouldBlock
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 124, in receive
+    |     return receiver.item
+    |            ^^^^^^^^^^^^^
+    | AttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'
+    | 
+    | During handling of the above exception, another exception occurred:
+    | 
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "C:\Users\CodeX\Meta trade\mcp_server.py", line 291, in main
+    |     request_data = await read_stream.receive()  # Read the incoming request from the stream
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    |     raise EndOfStream
+    | anyio.EndOfStream
+    +---------------- 2 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 62, in stdin_reader
+    |     async for line in stdin:
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_core\_fileio.py", line 80, in __aiter__
+    |     line = await self.readline()
+    |            ^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_core\_fileio.py", line 96, in readline
+    |     return await to_thread.run_sync(self._fp.readline)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    |     return await get_async_backend().run_sync_in_worker_thread(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2461, in run_sync_in_worker_thread
+    |     return await future
+    |            ^^^^^^^^^^^^
+    |   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 962, in run
+    |     result = context.run(func, *args)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+    | OSError: [WinError 233] No process is on the other end of the pipe
+    +------------------------------------
+2025-03-20 05:09:34,914 [INFO] MetaTrader5 initialized successfully
+2025-03-20 05:09:34,930 [INFO] TradingBot MCP server setup starting...
+2025-03-20 05:09:34,935 [INFO] Analyzing CSV file before loading...
+2025-03-20 05:09:34,951 [INFO] CSV Analysis Result: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-20 05:09:34,961 [INFO] CSV Analysis: {'detected_encoding': 'cp1252', 'delimiter_analysis': {',': [4, 4, 4, 4, 4, 4, 4], ';': [0, 0, 0, 0, 0, 0, 0], '\t': [0, 0, 0, 0, 0, 0, 0], '|': [0, 0, 0, 0, 0, 0, 0]}, 'field_counts': {',': 5, ';': 1, '\t': 1, '|': 1}, 'likely_delimiter': ',', 'sample_lines': ['Timestamp,Component,Level,Message,Details\n', ',,,,\n', ',,,,\n', ',,,,\n', ',,,,\n']}
+2025-03-20 05:09:35,077 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
+2025-03-20 05:09:35,091 [INFO] Loaded 1 rows with 1 columns from large_file.csv
+2025-03-20 05:09:35,102 [INFO] CSV columns: ['Message']
+2025-03-20 05:09:35,129 [INFO] Data from CSV:                                          Message
+5                                               

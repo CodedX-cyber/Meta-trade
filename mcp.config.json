@@ -1,0 +1,29 @@
+{
+    "mcpServers": {
+      "github": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-github"],
+        "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": ""}
+      },
+      "web_scraping_server": {
+        "command": "C:\\Users\\CodeX\\web_scraping_bot\\.venv\\Scripts\\python.exe",
+        "args": ["C:\\Users\\CodeX\\web_scraping_bot\\mcp_server.py"],
+        "env": {
+          "SMTP_SERVER": "smtp.gmail.com",
+          "SMTP_PORT": "587",
+          "SMTP_USERNAME": "alalekingisrael@gmail.com",
+          "SMTP_PASSWORD": "ugze nbzg lgdo lpex",
+          "FROM_EMAIL": "alalekingisrael@gmail.com",
+          "DATABASE_URL": "sqlite:///C:/Users/CodeX/web_scraping_bot/scraper.db",
+          "WEBHOOK_URLS": "https://hook0.com/12345678-1234-1234-1234-123456789012"
+        }
+      },
+      "trading_bot": {
+        "command": "C:\\Users\\CodeX\\Meta trade\\metaenv\\Scripts\\python.exe",
+        "args": ["C:\\Users\\CodeX\\Meta trade\\mcp_server.py"],
+        "env": {
+          "DATABASE_URL": "sqlite:///C:/Users/CodeX/web_scraping_bot/scraper.db"
+        }
+      }
+    }
+  }

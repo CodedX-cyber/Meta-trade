@@ -1,0 +1,7 @@
+--- Trade Performance Report ---
+Total Trades: 6
+Win Rate: 16.67%
+Total Profit: $99999.91
+Average Win: $100000.00
+Average Loss: $-0.02
+Profit Factor: 5555555.56

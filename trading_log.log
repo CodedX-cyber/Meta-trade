@@ -1,0 +1,1608 @@
+2025-02-14 11:56:18,201 - ERROR - MT5 Initialization failed
+2025-02-14 11:56:18,203 - ERROR - Failed to retrieve data
+2025-02-14 11:56:18,203 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-14 11:57:18,204 - ERROR - Failed to retrieve data
+2025-02-14 11:57:18,205 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-14 21:57:05,507 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 21:57:05,564 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 21:57:11,079 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 21:58:31,670 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 21:58:31,710 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 21:58:31,728 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:01:37,243 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:01:37,256 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:01:37,272 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:02:07,635 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:02:07,650 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:02:07,678 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:08:30,938 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:08:30,948 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:08:30,993 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:12:25,782 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:12:25,783 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-14 22:12:25,798 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:12:25,799 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-14 22:12:25,869 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:12:25,871 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-14 22:12:25,876 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-14 22:12:25,876 - ERROR - ATR column not found in dataset
+2025-02-14 22:13:25,892 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:13:25,892 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-14 22:13:25,907 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:13:25,907 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-14 22:13:25,926 - ERROR - Error calculating indicators: 'volume'
+2025-02-14 22:13:25,926 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-14 22:13:25,927 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-14 22:13:25,927 - ERROR - ATR column not found in dataset
+2025-02-15 07:43:37,465 - ERROR - Error calculating indicators: 'volume'
+2025-02-15 07:43:37,465 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-15 07:43:37,496 - ERROR - Error calculating indicators: 'volume'
+2025-02-15 07:43:37,496 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-15 07:43:37,560 - ERROR - Error calculating indicators: 'volume'
+2025-02-15 07:43:37,560 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-15 07:43:37,561 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-15 07:43:37,561 - ERROR - ATR column not found in dataset
+2025-02-15 07:44:37,563 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-15 07:44:37,563 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-15 07:44:37,564 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-15 07:44:37,564 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-15 07:45:37,564 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-15 07:45:37,564 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-15 07:45:37,564 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-15 07:45:37,565 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-15 07:46:37,567 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-15 07:46:37,569 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-15 07:46:37,569 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-15 07:46:37,569 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 12:29:58,971 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:29:58,971 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:29:58,998 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:29:58,998 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:29:59,073 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:29:59,074 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:29:59,074 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:29:59,074 - ERROR - ATR column not found in dataset
+2025-02-17 12:30:59,090 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:30:59,091 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:30:59,104 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:30:59,104 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:30:59,135 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:30:59,135 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:30:59,136 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:30:59,136 - ERROR - ATR column not found in dataset
+2025-02-17 12:31:59,172 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:31:59,172 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:31:59,187 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:31:59,187 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:31:59,199 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:31:59,199 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:31:59,200 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:31:59,200 - ERROR - ATR column not found in dataset
+2025-02-17 12:32:59,219 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:32:59,220 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:32:59,236 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:32:59,236 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:32:59,249 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:32:59,250 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:32:59,250 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:32:59,250 - ERROR - ATR column not found in dataset
+2025-02-17 12:33:59,259 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:33:59,259 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:33:59,267 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:33:59,267 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:33:59,276 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:33:59,276 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:33:59,276 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:33:59,277 - ERROR - ATR column not found in dataset
+2025-02-17 12:34:59,288 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:34:59,288 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:34:59,298 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:34:59,298 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:34:59,308 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:34:59,308 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:34:59,308 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:34:59,308 - ERROR - ATR column not found in dataset
+2025-02-17 12:35:59,322 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:35:59,322 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:35:59,338 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:35:59,338 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:35:59,349 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:35:59,349 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:35:59,349 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:35:59,349 - ERROR - ATR column not found in dataset
+2025-02-17 12:36:59,357 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:36:59,357 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:36:59,363 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:36:59,363 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:36:59,369 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:36:59,369 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:36:59,369 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:36:59,369 - ERROR - ATR column not found in dataset
+2025-02-17 12:37:59,380 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:37:59,381 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:37:59,394 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:37:59,394 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:37:59,410 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:37:59,410 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:37:59,410 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:37:59,411 - ERROR - ATR column not found in dataset
+2025-02-17 12:38:59,431 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:38:59,431 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:38:59,461 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:38:59,461 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:38:59,476 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:38:59,476 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:38:59,477 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:38:59,477 - ERROR - ATR column not found in dataset
+2025-02-17 12:39:59,491 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:39:59,491 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:39:59,501 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:39:59,501 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:39:59,508 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:39:59,508 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:39:59,509 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:39:59,509 - ERROR - ATR column not found in dataset
+2025-02-17 12:40:59,536 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:40:59,537 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:40:59,551 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:40:59,552 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:40:59,563 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:40:59,564 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:40:59,564 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:40:59,564 - ERROR - ATR column not found in dataset
+2025-02-17 12:41:59,585 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:41:59,585 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:41:59,597 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:41:59,598 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:41:59,609 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:41:59,609 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:41:59,610 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:41:59,610 - ERROR - ATR column not found in dataset
+2025-02-17 12:42:59,622 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:42:59,622 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:42:59,633 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:42:59,634 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:42:59,644 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:42:59,644 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:42:59,645 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:42:59,645 - ERROR - ATR column not found in dataset
+2025-02-17 12:43:59,662 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:43:59,662 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:43:59,705 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:43:59,705 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:43:59,725 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:43:59,725 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:43:59,726 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:43:59,727 - ERROR - ATR column not found in dataset
+2025-02-17 12:44:59,733 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:44:59,733 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:44:59,739 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:44:59,739 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:44:59,746 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:44:59,746 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:44:59,746 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:44:59,746 - ERROR - ATR column not found in dataset
+2025-02-17 12:45:59,757 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:45:59,757 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:45:59,766 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:45:59,766 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:45:59,773 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:45:59,774 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:45:59,774 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:45:59,774 - ERROR - ATR column not found in dataset
+2025-02-17 12:46:59,780 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:46:59,780 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:46:59,789 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:46:59,789 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:46:59,797 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:46:59,797 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:46:59,798 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:46:59,798 - ERROR - ATR column not found in dataset
+2025-02-17 12:47:59,807 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:47:59,807 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:47:59,813 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:47:59,813 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:47:59,820 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:47:59,820 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:47:59,820 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:47:59,821 - ERROR - ATR column not found in dataset
+2025-02-17 12:48:59,832 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:48:59,832 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:48:59,844 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:48:59,845 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:48:59,857 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:48:59,858 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:48:59,858 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:48:59,858 - ERROR - ATR column not found in dataset
+2025-02-17 12:49:59,881 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:49:59,881 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:49:59,896 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:49:59,896 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:49:59,909 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:49:59,909 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:49:59,910 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:49:59,910 - ERROR - ATR column not found in dataset
+2025-02-17 12:50:59,934 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:50:59,935 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:50:59,953 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:50:59,953 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:50:59,965 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:50:59,966 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:50:59,966 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:50:59,966 - ERROR - ATR column not found in dataset
+2025-02-17 12:51:59,988 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:51:59,989 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:52:00,017 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:52:00,018 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:52:00,036 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:52:00,037 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:52:00,038 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:52:00,038 - ERROR - ATR column not found in dataset
+2025-02-17 12:53:00,062 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:53:00,063 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:53:00,076 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:53:00,076 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:53:00,087 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:53:00,087 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:53:00,087 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:53:00,087 - ERROR - ATR column not found in dataset
+2025-02-17 12:54:00,096 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:54:00,096 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:54:00,104 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:54:00,105 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:54:00,110 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:54:00,110 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:54:00,110 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:54:00,111 - ERROR - ATR column not found in dataset
+2025-02-17 12:55:00,125 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:55:00,125 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:55:00,143 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:55:00,143 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:55:00,153 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:55:00,153 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:55:00,153 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:55:00,153 - ERROR - ATR column not found in dataset
+2025-02-17 12:56:00,180 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:56:00,180 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:56:00,199 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:56:00,199 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:56:00,221 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:56:00,221 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:56:00,223 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:56:00,223 - ERROR - ATR column not found in dataset
+2025-02-17 12:57:00,243 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:57:00,244 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:57:00,257 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:57:00,258 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:57:00,267 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:57:00,267 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:57:00,267 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:57:00,267 - ERROR - ATR column not found in dataset
+2025-02-17 12:58:00,295 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:58:00,296 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:58:00,309 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:58:00,309 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:58:00,319 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:58:00,320 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:58:00,321 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:58:00,322 - ERROR - ATR column not found in dataset
+2025-02-17 12:59:00,339 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:59:00,340 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:59:00,351 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:59:00,352 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:59:00,366 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 12:59:00,366 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:59:00,367 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 12:59:00,367 - ERROR - ATR column not found in dataset
+2025-02-17 13:00:00,376 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:00:00,377 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:00:00,385 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:00:00,385 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:00:00,394 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:00:00,394 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:00:00,395 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:00:00,395 - ERROR - ATR column not found in dataset
+2025-02-17 13:01:00,416 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:01:00,416 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:01:00,435 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:01:00,435 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:01:00,459 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:01:00,459 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:01:00,460 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:01:00,460 - ERROR - ATR column not found in dataset
+2025-02-17 13:02:00,490 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:02:00,491 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:02:00,500 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:02:00,500 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:02:00,508 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:02:00,508 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:02:00,509 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:02:00,509 - ERROR - ATR column not found in dataset
+2025-02-17 13:03:00,518 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:03:00,518 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:03:00,524 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:03:00,524 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:03:00,531 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:03:00,531 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:03:00,532 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:03:00,532 - ERROR - ATR column not found in dataset
+2025-02-17 13:04:00,545 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:04:00,545 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:04:00,555 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:04:00,555 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:04:00,566 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:04:00,567 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:04:00,567 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:04:00,567 - ERROR - ATR column not found in dataset
+2025-02-17 13:05:00,576 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:05:00,577 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:05:00,584 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:05:00,585 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:05:00,595 - ERROR - Error calculating indicators: 'volume'
+2025-02-17 13:05:00,595 - ERROR - DataFrame columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:05:00,596 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower']
+2025-02-17 13:05:00,596 - ERROR - ATR column not found in dataset
+2025-02-17 13:06:00,596 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:06:00,596 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:06:00,597 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:06:00,597 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:07:00,597 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:07:00,603 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:07:00,603 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:07:00,603 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:08:00,622 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:08:00,622 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:08:00,622 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:08:00,622 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:09:00,623 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:09:00,623 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:09:00,623 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:09:00,623 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:10:00,624 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:10:00,624 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:10:00,624 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:10:00,624 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:11:00,625 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:11:00,625 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:11:00,625 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:11:00,625 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:12:00,625 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:12:00,625 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:12:00,625 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:12:00,626 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:13:00,627 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:13:00,627 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:13:00,627 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:13:00,627 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:14:00,627 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:14:00,627 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:14:00,627 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:14:00,628 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:15:00,630 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:15:00,633 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:15:00,633 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:15:00,633 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:16:00,634 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:16:00,634 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:16:00,634 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:16:00,634 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:17:00,635 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:17:00,635 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:17:00,635 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:17:00,635 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:18:00,641 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:18:00,641 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:18:00,641 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:18:00,641 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:19:00,641 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:19:00,641 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:19:00,641 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:19:00,641 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:20:00,642 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:20:00,642 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:20:00,642 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:20:00,642 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:21:00,643 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:21:00,643 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:21:00,643 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:21:00,643 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:22:00,644 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:22:00,644 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:22:00,644 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:22:00,644 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:23:00,645 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:23:00,645 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:23:00,645 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:23:00,645 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:24:00,645 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:24:00,645 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:24:00,645 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:24:00,645 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:25:00,646 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:25:00,646 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:25:00,646 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:25:00,646 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:26:00,647 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:26:00,647 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:26:00,647 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:26:00,647 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:27:00,647 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:27:00,647 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:27:00,647 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:27:00,647 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 13:28:00,648 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 13:28:00,648 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 13:28:00,648 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 13:28:00,648 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 15:46:27,146 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 15:46:27,147 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 15:46:27,147 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 15:46:27,148 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 15:47:27,149 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 15:47:27,150 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 15:47:27,151 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 15:47:27,151 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 15:48:27,152 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 15:48:27,152 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 15:48:27,152 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 15:48:27,152 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 15:49:27,153 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 15:49:27,153 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 15:49:27,153 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 15:49:27,153 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 15:50:27,154 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 15:50:27,154 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 15:50:27,154 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 15:50:27,154 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 15:51:27,155 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 15:51:27,155 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 15:51:27,155 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 15:51:27,155 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 15:52:27,156 - ERROR - Failed to get market data for XAUUSD on 1H
+2025-02-17 15:52:27,156 - ERROR - Failed to get market data for XAUUSD on 4H
+2025-02-17 15:52:27,156 - ERROR - Failed to get market data for XAUUSD on D1
+2025-02-17 15:52:27,156 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-17 15:57:04,676 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:57:04,689 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:57:04,737 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:57:04,746 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume']
+2025-02-17 15:57:04,746 - ERROR - ATR column not found in dataset
+2025-02-17 15:58:04,765 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:58:04,781 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:58:04,828 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:58:04,829 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume']
+2025-02-17 15:58:04,829 - ERROR - ATR column not found in dataset
+2025-02-17 15:59:04,832 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:59:04,834 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:59:04,836 - ERROR - Volume data not found in DataFrame
+2025-02-17 15:59:04,836 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume']
+2025-02-17 15:59:04,836 - ERROR - ATR column not found in dataset
+2025-02-17 16:00:04,838 - ERROR - Volume data not found in DataFrame
+2025-02-17 16:00:04,839 - ERROR - Volume data not found in DataFrame
+2025-02-17 16:00:04,841 - ERROR - Volume data not found in DataFrame
+2025-02-17 16:00:04,841 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume']
+2025-02-17 16:00:04,841 - ERROR - ATR column not found in dataset
+
+
+2025-02-21 10:06:23,162 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:07:23,304 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:08:23,402 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:09:23,497 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:10:23,594 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:11:23,667 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:12:23,748 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:13:23,822 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:14:23,895 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:15:24,004 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:16:24,091 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:17:24,202 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:18:24,322 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:19:24,510 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:20:24,607 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:21:24,701 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:22:24,811 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:23:24,914 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:24:25,011 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:25:25,333 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:26:25,467 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:27:25,559 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:28:25,687 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:29:25,818 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:30:25,920 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:31:26,437 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:32:26,532 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:33:26,629 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:34:26,771 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:35:26,869 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:36:27,059 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:37:27,145 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:38:08,553 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:38:27,249 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:39:08,663 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:39:27,353 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:40:08,818 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:40:27,434 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:41:08,894 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:41:27,514 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:42:09,019 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:42:27,618 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:43:09,188 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:52:38,560 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:53:38,680 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:54:38,798 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:55:38,936 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:56:39,052 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:57:39,141 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:58:39,234 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 10:59:39,323 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:00:39,417 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:01:39,529 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:02:39,666 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:03:39,748 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:04:39,833 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:05:39,977 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:06:40,101 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:07:40,204 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:08:40,298 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:09:40,382 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:10:40,458 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:11:40,660 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:12:40,747 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:13:40,849 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:14:40,850 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:14:41,873 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:14:43,905 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:14:43,906 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:14:44,935 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:14:46,946 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:14:46,946 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:14:47,955 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:14:49,963 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:14:49,963 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:15:24,919 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:15:49,964 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:15:50,966 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:15:52,966 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:15:52,967 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:15:53,968 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:15:55,969 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:15:55,969 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:15:56,969 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:15:58,969 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:15:58,969 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:16:25,061 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:16:58,970 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:16:59,970 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:17:01,971 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:17:01,971 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:17:02,981 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:17:04,983 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:17:04,984 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:17:05,985 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:17:07,985 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:17:07,985 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:17:25,170 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-02-21 11:18:07,986 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:18:08,986 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:18:10,987 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:18:10,987 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:18:11,988 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:18:13,988 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:18:13,988 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:18:14,989 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:18:17,002 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:18:17,003 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:19:17,004 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:19:18,005 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:19:20,006 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:19:20,006 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:19:21,007 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:19:23,060 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:19:23,061 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:19:24,062 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:19:26,063 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:19:26,063 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:20:26,064 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:20:27,065 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:20:29,065 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:20:29,065 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:20:30,122 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:20:32,131 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:20:32,132 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:20:33,135 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:20:35,138 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:20:35,138 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:21:35,141 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:21:36,142 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:21:38,143 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:21:38,143 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:21:39,144 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:21:41,145 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:21:41,145 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:21:42,145 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:21:44,146 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:21:44,146 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:22:44,148 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:22:45,148 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:22:47,153 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:22:47,156 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:22:48,158 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:22:50,158 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:22:50,158 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:22:51,159 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:22:53,159 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:22:53,159 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:23:53,160 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:23:54,160 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:23:56,161 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:23:56,161 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:23:57,162 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:23:59,162 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:23:59,162 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:24:00,163 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:24:02,164 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:24:02,164 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:25:02,164 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:25:03,165 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:25:05,166 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:25:05,166 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:25:06,167 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:25:08,170 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:25:08,171 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:25:09,172 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:25:11,173 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:25:11,173 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:26:11,173 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:26:12,175 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:26:14,175 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:26:14,175 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:26:15,178 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:26:17,179 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:26:17,179 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:26:18,179 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:26:20,181 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:26:20,181 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:27:20,181 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:27:21,182 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:27:23,182 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:27:23,182 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:27:24,183 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:27:26,198 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:27:26,198 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:27:27,199 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:27:29,201 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:27:29,202 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:28:29,202 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:28:30,203 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:28:32,203 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:28:32,203 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:28:33,205 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:28:35,205 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:28:35,205 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:28:36,206 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:28:38,207 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:28:38,207 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:29:38,209 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:29:39,210 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:29:41,211 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:29:41,211 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:29:42,211 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:29:44,212 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:29:44,212 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:29:45,213 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:29:47,214 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:29:47,214 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:30:47,214 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:30:48,215 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:30:50,216 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:30:50,216 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:30:51,217 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:30:53,221 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:30:53,221 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:30:54,222 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:30:56,223 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:30:56,224 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:31:56,225 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:31:57,226 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:31:59,228 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:31:59,228 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:32:00,228 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:32:02,230 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:32:02,230 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:32:03,231 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:32:05,231 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:32:05,232 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:33:05,233 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:33:06,235 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:33:08,235 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:33:08,235 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:33:09,237 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:33:11,237 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:33:11,237 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:33:12,239 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:33:14,240 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:33:14,240 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:34:14,241 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:34:15,241 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:34:17,242 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:34:17,242 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:34:18,243 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:34:20,244 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:34:20,245 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:34:21,337 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:34:23,350 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:34:23,350 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:35:23,351 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:35:24,352 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:35:26,353 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:35:26,354 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:35:27,355 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:35:29,357 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:35:29,357 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:35:30,358 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:35:32,359 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:35:32,359 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:36:32,360 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:36:33,361 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:36:35,362 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:36:35,362 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:36:36,363 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:36:38,365 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:36:38,365 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:36:39,367 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:36:41,368 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:36:41,368 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:37:41,369 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:37:42,370 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:37:44,370 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:37:44,370 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:37:45,371 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:37:47,373 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:37:47,373 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:37:48,374 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:37:50,375 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:37:50,375 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:38:50,376 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:38:51,376 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:38:53,377 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:38:53,377 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:38:54,378 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:38:56,378 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:38:56,378 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:38:57,379 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:38:59,381 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:38:59,381 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:39:59,382 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:40:00,383 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:40:02,384 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:40:02,384 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:40:03,384 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:40:05,385 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:40:05,385 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:40:06,385 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:40:08,386 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:40:08,386 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:41:08,390 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:41:09,390 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:41:11,391 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:41:11,391 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:41:12,392 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:41:14,393 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:41:14,394 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:41:15,395 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:41:17,396 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:41:17,396 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:42:17,397 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:42:18,398 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:42:20,399 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:42:20,399 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:42:21,401 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:42:23,401 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:42:23,402 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:42:24,403 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:42:26,403 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:42:26,403 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:43:26,406 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:43:27,425 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:43:29,426 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:43:29,426 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:43:30,427 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:43:32,427 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:43:32,427 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:43:33,428 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:43:35,429 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:43:35,429 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:44:35,429 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:44:36,430 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:44:38,434 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:44:38,434 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:44:39,435 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:44:41,435 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:44:41,435 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:44:42,436 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:44:44,436 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:44:44,436 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:45:44,438 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:45:45,439 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:45:47,440 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:45:47,441 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:45:48,442 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:45:50,443 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:45:50,444 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:45:51,446 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:45:53,447 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:45:53,447 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:46:53,448 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:46:54,449 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:46:56,450 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:46:56,450 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:46:57,451 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:46:59,452 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:46:59,452 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:47:00,454 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:47:02,455 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:47:02,455 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:48:02,456 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:48:03,456 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:48:05,457 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:48:05,457 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:48:06,458 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:48:08,459 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:48:08,459 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:48:09,460 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:48:11,460 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:48:11,460 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:49:11,461 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:49:12,461 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:49:14,462 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:49:14,462 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:49:15,463 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:49:17,464 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:49:17,464 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:49:18,464 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:49:20,470 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:49:20,470 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:50:20,471 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:50:21,473 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:50:23,475 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:50:23,475 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:50:24,475 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:50:26,478 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:50:26,480 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:50:27,481 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:50:29,482 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:50:29,482 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:51:29,484 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:51:30,485 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:51:32,491 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:51:32,492 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:51:33,492 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:51:35,494 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:51:35,494 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:51:36,495 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:51:38,496 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:51:38,496 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:52:38,501 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:52:39,503 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:52:41,504 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:52:41,504 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:52:42,505 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:52:44,506 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:52:44,506 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:52:45,506 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:52:47,507 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:52:47,507 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:53:47,509 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:53:48,682 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:53:50,684 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:53:50,684 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:53:51,685 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:53:53,686 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:53:53,686 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:53:54,689 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:53:56,690 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:53:56,690 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:54:56,691 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:54:57,692 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:54:59,692 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:54:59,692 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:55:00,693 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:55:02,694 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:55:02,694 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:55:03,695 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:55:05,696 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:55:05,697 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:56:05,698 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:56:06,698 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:56:08,700 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:56:08,701 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:56:09,701 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:56:11,702 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:56:11,702 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:56:12,713 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:56:14,714 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:56:14,715 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:57:14,716 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:57:15,716 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:57:17,716 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:57:17,717 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:57:18,721 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:57:20,722 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:57:20,722 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:57:21,793 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:57:23,881 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:57:23,881 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:58:23,882 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:58:24,889 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:58:26,890 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:58:26,890 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:58:27,892 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:58:29,892 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:58:29,892 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:58:30,895 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:58:32,895 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:58:32,895 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 11:59:32,896 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:59:33,897 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:59:35,898 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 11:59:35,898 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:59:36,899 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:59:38,900 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 11:59:38,900 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 11:59:39,901 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 11:59:41,903 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 11:59:41,903 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:00:41,905 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:00:42,906 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:00:44,907 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:00:44,907 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:00:45,908 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:00:47,909 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:00:47,909 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:00:48,910 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:00:50,911 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:00:50,911 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:01:50,913 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:01:51,914 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:01:53,915 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:01:53,915 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:01:54,915 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:01:56,916 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:01:56,916 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:01:57,917 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:01:59,918 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:01:59,918 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:02:59,920 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:03:00,923 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:03:02,924 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:03:02,925 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:03:03,927 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:03:05,927 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:03:05,927 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:03:06,929 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:03:08,930 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:03:08,930 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:04:08,932 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:04:09,933 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:04:11,935 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:04:11,935 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:04:12,937 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:04:14,938 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:04:14,938 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:04:15,939 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:04:17,940 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:04:17,940 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:05:17,941 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:05:18,942 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:05:20,943 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:05:20,943 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:05:21,944 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:05:23,945 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:05:23,946 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:05:24,947 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:05:26,948 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:05:26,948 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:06:26,949 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:06:27,950 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:06:29,950 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:06:29,950 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:06:30,951 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:06:32,952 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:06:32,952 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:06:33,952 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:06:35,959 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:06:35,959 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:07:35,965 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:07:36,966 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:07:38,967 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:07:38,967 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:07:39,968 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:07:41,987 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:07:41,988 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:07:42,989 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:07:45,005 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:07:45,005 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:08:45,007 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:08:46,008 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:08:48,013 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:08:48,014 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:08:49,016 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:08:51,017 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:08:51,017 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:08:52,018 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:08:54,019 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:08:54,020 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:09:54,021 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:09:55,029 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:09:57,032 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:09:57,032 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:09:58,033 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:10:00,034 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:10:00,035 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:10:01,035 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:10:03,036 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:10:03,036 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:11:03,038 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:11:04,039 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:11:06,040 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:11:06,041 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:11:07,042 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:11:09,043 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:11:09,043 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:11:10,044 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:11:12,045 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:11:12,045 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:12:12,046 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:12:13,047 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:12:15,049 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:12:15,051 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:12:16,052 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:12:18,053 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:12:18,053 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:12:19,054 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:12:21,054 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:12:21,054 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:13:21,055 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:13:22,056 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:13:24,060 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:13:24,060 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:13:25,062 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:13:27,062 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:13:27,062 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:13:28,063 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:13:30,065 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:13:30,065 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:14:30,066 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:14:31,067 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:14:33,068 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:14:33,069 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:14:34,070 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:14:36,071 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:14:36,071 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:14:37,072 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:14:39,073 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:14:39,073 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:15:39,074 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:15:40,075 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:15:42,075 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:15:42,075 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:15:43,076 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:15:45,081 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:15:45,082 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:15:46,082 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:15:48,083 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:15:48,083 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:16:48,084 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:16:49,139 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:16:51,140 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:16:51,141 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:16:52,141 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:16:54,143 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:16:54,143 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:16:55,144 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:16:57,145 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:16:57,145 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:17:57,148 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:17:58,150 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:18:00,151 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:18:00,152 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:18:01,152 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:18:03,153 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:18:03,154 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:18:04,154 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:18:06,155 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:18:06,155 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:19:06,156 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:19:07,157 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:19:09,158 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:19:09,159 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:19:10,159 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:19:12,160 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:19:12,160 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:19:13,161 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:19:15,162 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:19:15,162 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:20:15,163 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:20:16,163 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:20:18,164 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:20:18,164 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:20:19,168 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:20:21,169 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:20:21,169 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:20:22,170 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:20:24,171 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:20:24,171 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:21:24,172 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:21:25,173 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:21:27,174 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:21:27,174 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:21:28,178 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:21:30,179 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:21:30,179 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:21:31,180 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:21:33,181 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:21:33,181 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:22:33,182 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:22:34,183 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:22:36,183 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:22:36,183 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:22:37,189 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:22:39,190 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:22:39,190 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:22:40,191 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:22:42,192 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:22:42,192 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:23:42,193 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:23:43,194 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:23:45,195 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:23:45,195 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:23:46,196 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:23:48,227 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:23:48,227 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:23:49,229 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:23:51,230 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:23:51,230 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:24:51,231 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:24:52,231 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:24:54,232 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:24:54,232 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:24:55,232 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:24:57,233 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:24:57,233 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:24:58,234 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:25:00,237 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:25:00,237 - WARNING - No data retrieved, retrying after sleep period.
+2025-02-21 12:26:00,237 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:26:01,240 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:26:03,241 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-02-21 12:26:03,241 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:26:04,243 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:26:06,244 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-02-21 12:26:06,244 - WARNING - Failed to get market data, retry 1/3
+2025-02-21 12:26:07,246 - WARNING - Failed to get market data, retry 2/3
+2025-02-21 12:26:09,247 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-02-21 12:26:09,247 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-01 03:56:48,691 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 03:57:48,943 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:07:23,432 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:08:23,699 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:09:23,820 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:10:23,994 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:11:24,140 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:12:24,223 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:13:24,335 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:14:24,654 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:15:24,757 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:16:24,867 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:17:24,959 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:18:25,080 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 04:19:25,081 - WARNING - Failed to get market data, retry 1/3
+2025-03-01 04:19:26,082 - WARNING - Failed to get market data, retry 2/3
+2025-03-01 04:19:28,082 - ERROR - Failed to get market data for XAUUSD on 16385
+2025-03-01 04:19:28,082 - WARNING - Failed to get market data, retry 1/3
+2025-03-01 04:19:29,083 - WARNING - Failed to get market data, retry 2/3
+2025-03-01 04:19:31,084 - ERROR - Failed to get market data for XAUUSD on 16388
+2025-03-01 04:19:31,084 - WARNING - Failed to get market data, retry 1/3
+2025-03-01 04:19:32,084 - WARNING - Failed to get market data, retry 2/3
+2025-03-01 04:19:34,085 - ERROR - Failed to get market data for XAUUSD on 16408
+2025-03-01 04:19:34,085 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-01 05:24:37,111 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:25:37,250 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:26:37,334 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:27:37,426 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:28:37,493 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:29:37,557 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:30:37,657 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:31:37,760 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:32:37,864 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:33:37,971 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:34:38,103 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:35:38,232 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:36:38,330 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:37:38,437 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:38:38,535 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:39:38,626 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:40:38,725 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:41:38,855 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:42:38,970 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:43:39,057 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:44:39,144 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:45:39,239 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:46:39,354 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:47:39,448 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:48:39,524 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:49:39,627 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:50:39,725 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:51:39,788 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:52:39,906 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:53:39,999 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:54:40,101 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:55:40,236 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:56:40,312 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:57:40,403 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:58:40,469 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 05:59:40,575 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 06:00:40,685 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 06:01:40,777 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 06:02:40,863 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 06:03:40,961 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 06:04:41,054 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 06:05:41,152 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-01 06:06:41,246 - INFO - Available columns: ['time', 'open', 'high', 'low', 'close', 'tick_volume', 'spread', 'real_volume', 'ATR', 'EMA50', 'EMA200', 'BB_upper', 'BB_middle', 'BB_lower', 'VWAP', 'MACD_12_26_9', 'MACD_SIGNAL', 'RSI', 'STOCHk_14_3_3', 'STOCHd_14_3_3']
+2025-03-02 06:07:43,669 - ERROR - Failed to initialize MT5
+2025-03-16 10:00:53,712 - INFO - MCP client session initialized successfully
+2025-03-16 10:01:06,044 - INFO - MCP client session initialized successfully
+2025-03-16 10:01:06,045 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 10:02:06,106 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 10:41:27,869 - INFO - MCP client session initialized successfully
+2025-03-16 10:41:27,883 - INFO - MCP client session initialized successfully
+2025-03-16 10:41:27,892 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:41:27,892 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:41:27,892 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:41:27,892 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:42:27,899 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:42:27,899 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:42:27,900 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:42:27,900 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:43:27,897 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:43:27,898 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:43:27,898 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:43:27,898 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:44:27,898 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:44:27,898 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:44:27,899 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:44:27,899 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:45:27,915 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:45:27,915 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:45:27,916 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:45:27,916 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:46:27,922 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:46:27,922 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:46:27,923 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:46:27,923 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:47:27,928 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:47:27,929 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:47:27,929 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:47:27,929 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:48:27,934 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:48:27,934 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:48:27,934 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:48:27,934 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:49:27,947 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:49:27,947 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:49:27,949 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:49:27,949 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:50:27,958 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '1H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:50:27,958 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': '4H'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:50:27,958 - ERROR - Error calling get_market_data: 2 validation errors for CallToolRequest
+method
+  Input should be 'tools/call' [type=literal_error, input_value='get_market_data', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/literal_error
+params.name
+  Field required [type=missing, input_value={'symbol': 'XAUUSD', 'timeframe': 'D1'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-03-16 10:50:27,958 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 10:53:01,496 - INFO - MCP client session initialized successfully
+2025-03-16 10:53:01,496 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 10:54:29,046 - INFO - MCP client session initialized successfully
+2025-03-16 10:54:29,046 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 10:55:29,053 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 10:56:29,065 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 10:57:29,077 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 10:58:29,087 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 10:59:29,102 - ERROR - Error in trade function: This event loop is already running
+2025-03-16 11:27:01,901 - INFO - MCP client session initialized successfully
+2025-03-16 11:27:01,903 - ERROR - Error calling get_market_data: BaseSession.send_request() missing 1 required positional argument: 'result_type'
+2025-03-16 11:27:01,903 - ERROR - Error calling get_market_data: BaseSession.send_request() missing 1 required positional argument: 'result_type'
+2025-03-16 11:27:01,903 - ERROR - Error calling get_market_data: BaseSession.send_request() missing 1 required positional argument: 'result_type'
+2025-03-16 11:27:01,903 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 11:28:01,916 - ERROR - Error calling get_market_data: BaseSession.send_request() missing 1 required positional argument: 'result_type'
+2025-03-16 11:28:01,916 - ERROR - Error calling get_market_data: BaseSession.send_request() missing 1 required positional argument: 'result_type'
+2025-03-16 11:28:01,917 - ERROR - Error calling get_market_data: BaseSession.send_request() missing 1 required positional argument: 'result_type'
+2025-03-16 11:28:01,917 - WARNING - No data retrieved, retrying after sleep period.
+2025-03-16 11:55:25,821 - INFO - MCP client session initialized successfully
+2025-03-16 11:55:25,836 - ERROR - Error calling get_market_data: 
+2025-03-16 11:55:25,836 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 11:57:14,325 - INFO - MCP client session initialized successfully
+2025-03-16 11:57:14,333 - ERROR - Error calling get_market_data: 
+2025-03-16 11:57:14,333 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 11:58:14,335 - ERROR - Error calling get_market_data: 
+2025-03-16 11:58:14,335 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 11:59:14,337 - ERROR - Error calling get_market_data: 
+2025-03-16 11:59:14,337 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:00:14,342 - ERROR - Error calling get_market_data: 
+2025-03-16 12:00:14,342 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:01:14,346 - ERROR - Error calling get_market_data: 
+2025-03-16 12:01:14,346 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:02:14,360 - ERROR - Error calling get_market_data: 
+2025-03-16 12:02:14,360 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:03:14,368 - ERROR - Error calling get_market_data: 
+2025-03-16 12:03:14,369 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:04:14,372 - ERROR - Error calling get_market_data: 
+2025-03-16 12:04:14,372 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:05:14,374 - ERROR - Error calling get_market_data: 
+2025-03-16 12:05:14,374 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:06:14,385 - ERROR - Error calling get_market_data: 
+2025-03-16 12:06:14,385 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:07:14,399 - ERROR - Error calling get_market_data: 
+2025-03-16 12:07:14,400 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:08:14,405 - ERROR - Error calling get_market_data: 
+2025-03-16 12:08:14,405 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:09:14,420 - ERROR - Error calling get_market_data: 
+2025-03-16 12:09:14,420 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:10:14,503 - ERROR - Error calling get_market_data: 
+2025-03-16 12:10:14,503 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:11:14,512 - ERROR - Error calling get_market_data: 
+2025-03-16 12:11:14,512 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:12:14,522 - ERROR - Error calling get_market_data: 
+2025-03-16 12:12:14,522 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:13:14,533 - ERROR - Error calling get_market_data: 
+2025-03-16 12:13:14,533 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:14:14,549 - ERROR - Error calling get_market_data: 
+2025-03-16 12:14:14,549 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:15:14,558 - ERROR - Error calling get_market_data: 
+2025-03-16 12:15:14,558 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:16:14,563 - ERROR - Error calling get_market_data: 
+2025-03-16 12:16:14,563 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:17:14,566 - ERROR - Error calling get_market_data: 
+2025-03-16 12:17:14,566 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:18:14,569 - ERROR - Error calling get_market_data: 
+2025-03-16 12:18:14,569 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:19:14,583 - ERROR - Error calling get_market_data: 
+2025-03-16 12:19:14,583 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:20:14,583 - ERROR - Error calling get_market_data: 
+2025-03-16 12:20:14,584 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:21:14,595 - ERROR - Error calling get_market_data: 
+2025-03-16 12:21:14,595 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:22:14,599 - ERROR - Error calling get_market_data: 
+2025-03-16 12:22:14,599 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:23:14,618 - ERROR - Error calling get_market_data: 
+2025-03-16 12:23:14,618 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:24:14,619 - ERROR - Error calling get_market_data: 
+2025-03-16 12:24:14,619 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:25:14,634 - ERROR - Error calling get_market_data: 
+2025-03-16 12:25:14,634 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:26:14,649 - ERROR - Error calling get_market_data: 
+2025-03-16 12:26:14,649 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:27:14,666 - ERROR - Error calling get_market_data: 
+2025-03-16 12:27:14,666 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:28:14,682 - ERROR - Error calling get_market_data: 
+2025-03-16 12:28:14,682 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:29:14,691 - ERROR - Error calling get_market_data: 
+2025-03-16 12:29:14,691 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:30:05,451 - INFO - MCP client session initialized successfully
+2025-03-16 12:30:05,459 - ERROR - Error calling get_market_data: 
+2025-03-16 12:30:05,459 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:30:14,707 - ERROR - Error calling get_market_data: 
+2025-03-16 12:30:14,707 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:31:14,713 - ERROR - Error calling get_market_data: 
+2025-03-16 12:31:14,713 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:32:14,749 - ERROR - Error calling get_market_data: 
+2025-03-16 12:32:14,749 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:33:14,762 - ERROR - Error calling get_market_data: 
+2025-03-16 12:33:14,762 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:34:14,777 - ERROR - Error calling get_market_data: 
+2025-03-16 12:34:14,777 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:35:14,794 - ERROR - Error calling get_market_data: 
+2025-03-16 12:35:14,795 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:36:14,800 - ERROR - Error calling get_market_data: 
+2025-03-16 12:36:14,801 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:37:14,813 - ERROR - Error calling get_market_data: 
+2025-03-16 12:37:14,814 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:38:14,817 - ERROR - Error calling get_market_data: 
+2025-03-16 12:38:14,817 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:39:14,831 - ERROR - Error calling get_market_data: 
+2025-03-16 12:39:14,831 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:40:14,835 - ERROR - Error calling get_market_data: 
+2025-03-16 12:40:14,836 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:41:14,852 - ERROR - Error calling get_market_data: 
+2025-03-16 12:41:14,854 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:42:14,870 - ERROR - Error calling get_market_data: 
+2025-03-16 12:42:14,870 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:43:14,885 - ERROR - Error calling get_market_data: 
+2025-03-16 12:43:14,885 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:53:31,132 - INFO - MCP client session initialized successfully
+2025-03-16 12:53:31,184 - ERROR - Error calling get_market_data: 
+2025-03-16 12:53:31,184 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:54:31,205 - ERROR - Error calling get_market_data: 
+2025-03-16 12:54:31,206 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:55:31,212 - ERROR - Error calling get_market_data: 
+2025-03-16 12:55:31,213 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:56:31,226 - ERROR - Error calling get_market_data: 
+2025-03-16 12:56:31,227 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+2025-03-16 12:57:31,238 - ERROR - Error calling get_market_data: 
+2025-03-16 12:57:31,239 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
