@@ -1839,3 +1839,27 @@ During handling of the above exception, another exception occurred:
 2025-03-20 05:09:35,102 [INFO] CSV columns: ['Message']
 2025-03-20 05:09:35,129 [INFO] Data from CSV:                                          
 5  � � � � � � � � � � � � � � � � � � � � � � �
+2025-03-24 16:50:20,051 [INFO] MetaTrader5 initialized successfully
+2025-03-24 16:50:20,069 [INFO] TradingBot MCP server setup starting...
+2025-03-24 16:50:20,070 [INFO] Analyzing CSV file before loading...
+2025-03-24 16:50:20,072 [ERROR] Unexpected error in main: No module named 'mcp_server'
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\mcp_server_fixed.py", line 117, in main
+    from mcp_server import load_data_from_csv  # Import locally to avoid circular import
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'mcp_server'
+2025-03-26 13:12:53,675 [INFO] MetaTrader5 initialized successfully
+2025-03-26 13:12:53,699 [INFO] TradingBot MCP server setup starting...
+2025-03-26 13:12:53,699 [INFO] Analyzing CSV file before loading...
+2025-03-26 13:12:53,701 [ERROR] Unexpected error in main: No module named 'mcp_server'
+Traceback (most recent call last):
+  File "C:\Users\CodeX\Meta trade\mcp_server_fixed.py", line 117, in main
+    from mcp_server import load_data_from_csv  # Import locally to avoid circular import
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'mcp_server'
+2025-03-30 01:55:02,081 [WARNING] MT5 initialization failed, retrying in 1 seconds...
+2025-03-30 01:55:16,701 [INFO] MetaTrader5 initialized successfully
+2025-03-30 01:55:16,728 [INFO] TradingBot MCP server setup starting...
+2025-03-30 01:55:16,829 [INFO] Loading CSV file...
+2025-03-30 01:55:16,878 [WARNING] Failed to load CSV: 'utf-8' codec can't decode byte 0xa0 in position 76: invalid start byte, proceeding without it...
+2025-03-30 01:55:16,913 [INFO] Server started and connected successfully

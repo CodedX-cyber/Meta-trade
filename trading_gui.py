@@ -7,13 +7,15 @@ from PyQt5.QtCore import Qt, QTimer, pyqtSignal
 from PyQt5.QtGui import QPalette, QColor, QFont, QIcon
 import MetaTrader5 as mt5
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 import sys
 import pyqtgraph as pg
 import numpy as np
 from ta import add_all_ta_features
 from trading_bot import get_market_data, calculate_indicators
 from trading_monitor import TradingMonitor
+from trading_bot import start_trading_algorithm  # Add this import
+import asyncio
 
 class TradingBotGUI(QMainWindow):
     refresh_signal = pyqtSignal()
@@ -357,10 +359,24 @@ class TradingBotGUI(QMainWindow):
     def toggle_trading(self):
         self.trading_active = not self.trading_active
         self.toggle_trading_button.setText("Stop Trading" if self.trading_active else "Start Trading")
-        with open(self.command_file, 'w') as f:
-            f.write(json.dumps({"command": "toggle_trading", "params": {"active": self.trading_active}}))
-        self.add_log_message(f"Trading {'started' if self.trading_active else 'stopped'}")
-
+        
+        if self.trading_active:
+            try:
+                config = {
+                    "symbol": self.symbol,
+                    "timeframe": "1H",
+                    "lot": float(self.lot_size.text()),
+                    "trading_interval": 60,
+                    "start": datetime.now() - timedelta(days=1),  # Example
+                    "end": datetime.now()
+                }
+                asyncio.run(start_trading_algorithm(config))
+                self.add_log_message("Trading algorithm started")
+            except Exception as e:
+                self.add_log_message(f"Failed to start trading: {str(e)}")
+        else:
+            self.add_log_message("Trading stopped (manual stop not fully implemented)")
+            # Add server-side stop logic if needed
     def stop_trade(self):
         positions = mt5.positions_get(symbol=self.symbol)
         if positions:

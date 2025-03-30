@@ -6,7 +6,7 @@
         "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": ""}
       },
       "web_scraping_server": {
-        "command": "C:\\Users\\CodeX\\web_scraping_bot\\.venv\\Scripts\\python.exe",
+        "command": "uv",
         "args": ["C:\\Users\\CodeX\\web_scraping_bot\\mcp_server.py"],
         "env": {
           "SMTP_SERVER": "smtp.gmail.com",
@@ -19,7 +19,7 @@
         }
       },
       "trading_bot": {
-        "command": "C:\\Users\\CodeX\\Meta trade\\metaenv\\Scripts\\python.exe",
+        "command": "uv",
         "args": ["C:\\Users\\CodeX\\Meta trade\\mcp_server.py"],
         "env": {
           "DATABASE_URL": "sqlite:///C:/Users/CodeX/web_scraping_bot/scraper.db"

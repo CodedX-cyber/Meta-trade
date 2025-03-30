@@ -1606,3 +1606,4 @@ params.name
 2025-03-16 12:56:31,227 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
 2025-03-16 12:57:31,238 - ERROR - Error calling get_market_data: 
 2025-03-16 12:57:31,239 - ERROR - Error in trade function: 'NoneType' object has no attribute 'iloc'
+
