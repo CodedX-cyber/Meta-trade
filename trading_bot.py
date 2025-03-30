@@ -1,6 +1,5 @@
 import asyncio
 import logging
-import subprocess
 from mcp import ClientSession, CallToolRequest
 from mcp.client.stdio import stdio_client
 import pandas as pd

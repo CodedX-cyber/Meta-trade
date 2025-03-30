@@ -1406,7 +1406,7 @@ During handling of the above exception, another exception occurred:
 2025-03-17 05:04:38,909 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
 2025-03-17 05:04:38,915 [INFO] Loaded 23 rows with 17 columns from large_file.csv
 2025-03-17 05:04:38,916 [INFO] CSV columns: ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
-2025-03-17 05:04:38,950 [INFO] Data from CSV:                                         Unnamed: 1  ...  Unnamed: 15 Unnamed: 16
+2025-03-17 05:04:38,950 [INFO] Data from CSV:    ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½  Unnamed: 1  ...  Unnamed: 15 Unnamed: 16
 0                                  NaN         NaN  ...          NaN         NaN
 1                                  NaN         NaN  ...          NaN         NaN
 2                                  NaN         NaN  ...          NaN         NaN
@@ -1414,7 +1414,7 @@ During handling of the above exception, another exception occurred:
 4                                  NaN         NaN  ...          NaN         NaN
 
 [5 rows x 17 columns]
-2025-03-17 05:04:38,965 [INFO] Data from CSV:                                         Unnamed: 1  Unnamed: 2 Unnamed: 3  ...  Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16
+2025-03-17 05:04:38,965 [INFO] Data from CSV:    ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½  Unnamed: 1  Unnamed: 2 Unnamed: 3  ...  Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16
 0                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
 1                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
 2                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
@@ -1439,7 +1439,7 @@ During handling of the above exception, another exception occurred:
 2025-03-17 05:33:20,817 [INFO] Loaded 23 rows with 17 columns from large_file.csv
 2025-03-17 05:33:20,818 [INFO] CSV columns: ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
 2025-03-17 05:33:20,818 [INFO] CSV columns: ['\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 11', 'Unnamed: 12', 'Unnamed: 13', 'Unnamed: 14', 'Unnamed: 15', 'Unnamed: 16']
-2025-03-17 05:33:20,895 [INFO] Data from CSV:                                         Unnamed: 1  ...  Unnamed: 15 Unnamed: 16
+2025-03-17 05:33:20,895 [INFO] Data from CSV:    ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½  Unnamed: 1  ...  Unnamed: 15 Unnamed: 16
 0                                  NaN         NaN  ...          NaN         NaN
 1                                  NaN         NaN  ...          NaN         NaN
 2                                  NaN         NaN  ...          NaN         NaN
@@ -1447,7 +1447,7 @@ During handling of the above exception, another exception occurred:
 4                                  NaN         NaN  ...          NaN         NaN
 
 [5 rows x 17 columns]
-2025-03-17 05:33:20,899 [INFO] Data from CSV:                                         Unnamed: 1  Unnamed: 2 Unnamed: 3  ...  Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16
+2025-03-17 05:33:20,899 [INFO] Data from CSV:    ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½  Unnamed: 1  Unnamed: 2 Unnamed: 3  ...  Unnamed: 13 Unnamed: 14 Unnamed: 15 Unnamed: 16
 0                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
 1                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
 2                                  NaN         NaN         NaN        NaN  ...          NaN         NaN         NaN         NaN
@@ -1510,7 +1510,7 @@ During handling of the above exception, another exception occurred:
 2025-03-17 05:40:33,081 [INFO] Data from CSV:                                       Unnamed: 3            Unnamed: 5 Unnamed: 6  ... Unnamed: 14 Unnamed: 15 Unnamed: 16
 3                                            NaN  Trade Account Report        NaN  ...         NaN         NaN         NaN
 4                                            NaN                 Name:        NaN  ...         NaN         NaN         NaN
-5                                                             Account:        NaN  ...         NaN         NaN         NaN
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½              Account:        NaN  ...         NaN         NaN         NaN
 6                                            NaN              Company:        NaN  ...         NaN         NaN         NaN
 7                                            NaN                 Date:        NaN  ...         NaN         NaN         NaN
 
@@ -1526,7 +1526,7 @@ During handling of the above exception, another exception occurred:
 2025-03-17 05:40:33,778 [INFO] Data from CSV:                                       Unnamed: 3  ... Unnamed: 16
 3                                            NaN  ...         NaN
 4                                            NaN  ...         NaN
-5                                                 ...         NaN
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½  ...         NaN
 6                                            NaN  ...         NaN
 7                                            NaN  ...         NaN
 
@@ -1586,7 +1586,7 @@ During handling of the above exception, another exception occurred:
 2025-03-17 06:03:48,702 [INFO] Data from CSV:                                       Unnamed: 3            Unnamed: 5 Unnamed: 6  ... Unnamed: 14 Unnamed: 15 Unnamed: 16
 3                                            NaN  Trade Account Report        NaN  ...         NaN         NaN         NaN
 4                                            NaN                 Name:        NaN  ...         NaN         NaN         NaN
-5                                                             Account:        NaN  ...         NaN         NaN         NaN
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½              Account:        NaN  ...         NaN         NaN         NaN
 6                                            NaN              Company:        NaN  ...         NaN         NaN         NaN
 7                                            NaN                 Date:        NaN  ...         NaN         NaN         NaN
 
@@ -1634,7 +1634,7 @@ Index: [3, 4, 5, 6, 7]
 2025-03-17 08:20:21,967 [INFO] Loaded 1 rows with 1 columns from large_file.csv
 2025-03-17 08:20:21,968 [INFO] CSV columns: ['Message']
 2025-03-17 08:20:21,983 [INFO] Data from CSV:                                          Message
-5                                               
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½
 2025-03-18 03:10:43,088 [INFO] MetaTrader5 initialized successfully
 2025-03-18 03:10:43,098 [INFO] TradingBot MCP server setup starting...
 2025-03-18 03:10:43,098 [INFO] Analyzing CSV file before loading...
@@ -1644,7 +1644,7 @@ Index: [3, 4, 5, 6, 7]
 2025-03-18 03:10:43,279 [INFO] Loaded 1 rows with 1 columns from large_file.csv
 2025-03-18 03:10:43,321 [INFO] CSV columns: ['Message']
 2025-03-18 03:10:43,422 [INFO] Data from CSV:                                          Message
-5                                               
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½
 2025-03-18 03:15:23,747 [INFO] MetaTrader5 initialized successfully
 2025-03-18 03:15:23,752 [INFO] TradingBot MCP server setup starting...
 2025-03-18 03:15:23,752 [INFO] Analyzing CSV file before loading...
@@ -1654,7 +1654,7 @@ Index: [3, 4, 5, 6, 7]
 2025-03-18 03:15:23,779 [INFO] Loaded 1 rows with 1 columns from large_file.csv
 2025-03-18 03:15:23,786 [INFO] CSV columns: ['Message']
 2025-03-18 03:15:23,795 [INFO] Data from CSV:                                          Message
-5                                               
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½
 2025-03-18 09:07:08,481 [INFO] MetaTrader5 initialized successfully
 2025-03-18 09:07:08,483 [INFO] TradingBot MCP server setup starting...
 2025-03-18 09:07:08,483 [INFO] Analyzing CSV file before loading...
@@ -1664,7 +1664,7 @@ Index: [3, 4, 5, 6, 7]
 2025-03-18 09:07:08,545 [INFO] Loaded 1 rows with 1 columns from large_file.csv
 2025-03-18 09:07:08,546 [INFO] CSV columns: ['Message']
 2025-03-18 09:07:08,561 [INFO] Data from CSV:                                          Message
-5                                               
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½
 2025-03-18 09:07:29,719 [INFO] MetaTrader5 initialized successfully
 2025-03-18 09:07:29,720 [INFO] TradingBot MCP server setup starting...
 2025-03-18 09:07:29,720 [INFO] Analyzing CSV file before loading...
@@ -1674,7 +1674,7 @@ Index: [3, 4, 5, 6, 7]
 2025-03-18 09:07:29,729 [INFO] Loaded 1 rows with 1 columns from large_file.csv
 2025-03-18 09:07:29,730 [INFO] CSV columns: ['Message']
 2025-03-18 09:07:29,736 [INFO] Data from CSV:                                          Message
-5                                               
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½
 2025-03-18 10:26:41,652 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (2 sub-exceptions)
 Traceback (most recent call last):
   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
@@ -1756,7 +1756,7 @@ During handling of the above exception, another exception occurred:
 2025-03-20 01:11:39,128 [INFO] Loaded 1 rows with 1 columns from large_file.csv
 2025-03-20 01:11:39,128 [INFO] CSV columns: ['Message']
 2025-03-20 01:11:39,362 [INFO] Data from CSV:                                          Message
-5                                               
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½
 2025-03-20 01:19:04,975 [ERROR] Unexpected error in main: unhandled errors in a TaskGroup (2 sub-exceptions)
 Traceback (most recent call last):
   File "C:\Users\CodeX\Meta trade\metaenv\Lib\site-packages\mcp\server\stdio.py", line 86, in stdio_server
@@ -1837,5 +1837,5 @@ During handling of the above exception, another exception occurred:
 2025-03-20 05:09:35,077 [INFO] Successfully loaded CSV with delimiter=',', encoding='cp1252'
 2025-03-20 05:09:35,091 [INFO] Loaded 1 rows with 1 columns from large_file.csv
 2025-03-20 05:09:35,102 [INFO] CSV columns: ['Message']
-2025-03-20 05:09:35,129 [INFO] Data from CSV:                                          Message
-5                                               
+2025-03-20 05:09:35,129 [INFO] Data from CSV:                                          
+5  ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½

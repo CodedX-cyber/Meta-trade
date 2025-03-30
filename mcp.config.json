@@ -23,7 +23,48 @@
         "args": ["C:\\Users\\CodeX\\Meta trade\\mcp_server.py"],
         "env": {
           "DATABASE_URL": "sqlite:///C:/Users/CodeX/web_scraping_bot/scraper.db"
+        },
+        "data_preprocessing": {
+            "indicators": {
+                "RSI": { "period": 14 },
+                "MACD": { "fast": 12, "slow": 26, "signal": 9 },
+                "SMA": { "period": 20 },
+                "EMA": { "period": 20 }
+            },
+            "normalization": {
+                "method": "minmax",
+                "range": [0, 1]
+            },
+            "window_size": 64,
+            "features": [
+                "open", "high", "low", "close", "volume",
+                "rsi", "macd", "macd_signal", "macd_hist",
+                "sma", "ema"
+            ]
+        },
+        "model": {
+            "type": "transformer",
+            "layers": {
+                "embedding": 64,
+                "attention_heads": 8,
+                "feed_forward": 128,
+                "dropout": 0.1
+            },
+            "output": {
+                "actions": ["buy", "sell", "hold"],
+                "risk_management": {
+                    "stop_loss": 1.5,
+                    "take_profit": 3.0,
+                    "position_size": 0.01
+                }
+            }
+        },
+        "training": {
+            "epochs": 100,
+            "batch_size": 32,
+            "validation_split": 0.2,
+            "patience": 10
         }
       }
     }
-  }
+}
